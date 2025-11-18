@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: cabe0c95cae458d46a7889c2847c65ad
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - inventoryItemPrefab: {fileID: 8420034880205486925, guid: 0b36537ad072c774898dc01be24c588f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
