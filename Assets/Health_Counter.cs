@@ -12,20 +12,20 @@ public class Health_Counter : MonoBehaviour
 
 
 
-    public void SetMaxHealth(int playerHealth)
-    {
-        healthSlider.maxValue = playerHealth;
-        healthSlider.value = playerHealth;
+    //public void SetMaxHealth(int playerHealth)
+    //{
+    //    healthSlider.maxValue = playerHealth;
+    //    healthSlider.value = playerHealth;
 
 
-    }
+    //}
 
-    public void SetHealth(int playerHealth)
-    {
-        healthSlider.value = playerHealth;
+    //public void SetHealth(int playerHealth)
+    //{
+    //    healthSlider.value = playerHealth;
 
-        fill.color = gradient.Evaluate(healthSlider.normalizedValue);
-    }
+    //    fill.color = gradient.Evaluate(healthSlider.normalizedValue);
+    //}
     public void SetImage(int playerHealth)
     {
         if(playerHealth >= 3)
