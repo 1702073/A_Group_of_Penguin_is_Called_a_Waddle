@@ -286,7 +286,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29505579}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 6, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -839,6 +839,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 151532563234626918, guid: 3e73a035d2ea9284bb72a92d9118e2fd, type: 3}
   m_PrefabInstance: {fileID: 7183221482821805520}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1195254295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195254286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de1a48d350b56148a8c1e10690fe34a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultHealth: 3
+  defaultLives: 1
+  playerHealth: 3
+  playerLives: 1
 --- !u!1 &1214584359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1323,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5394743801359527132, guid: 3e73a035d2ea9284bb72a92d9118e2fd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1195254295}
   m_SourcePrefab: {fileID: 100100000, guid: 3e73a035d2ea9284bb72a92d9118e2fd, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
