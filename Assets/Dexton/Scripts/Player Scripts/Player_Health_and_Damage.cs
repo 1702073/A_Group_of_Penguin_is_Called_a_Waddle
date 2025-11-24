@@ -6,9 +6,9 @@ public class Player_Health_and_Damage : MonoBehaviour
 {
     [SerializeField] private int _defaultHealth = 3;
     [SerializeField] private int _defaultLives = 1;
+    private string _deathScene = "Death";
     public int playerHealth;
     public int playerLives;
-    [SerializeField] private int _deathSceneNum;
 
     private void Start()
     {
@@ -21,12 +21,12 @@ public class Player_Health_and_Damage : MonoBehaviour
         if(playerLives <= 0)
         {
             Debug.Log("player is out of Lives");
-            SceneManager.LoadScene(_deathSceneNum);
+            SceneManager.LoadScene(_deathScene);
         }
         else
         {
             playerLives--;
-            playerHealth = 3; // Reset health for the new life || remeber to change this value if you change the starting health
+            playerHealth = _defaultHealth; // Reset health for the new life || remeber to change this value if you change the starting health
         }
         Debug.Log("player died");
     }
