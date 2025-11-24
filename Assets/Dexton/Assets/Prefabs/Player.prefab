@@ -190,6 +190,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3de1a48d350b56148a8c1e10690fe34a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _defaultHealth: 3
+  _defaultLives: 1
+  _deathScene: Death
+  playerHealth: 0
+  playerLives: 0
 --- !u!114 &4050793532855765820
 MonoBehaviour:
   m_ObjectHideFlags: 0
