@@ -192,7 +192,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _defaultHealth: 3
   _defaultLives: 1
-  _deathScene: Death
   playerHealth: 0
   playerLives: 0
 --- !u!114 &4050793532855765820
@@ -222,7 +221,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5886529758422841429}
         m_TargetAssemblyTypeName: Player_Movement, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
