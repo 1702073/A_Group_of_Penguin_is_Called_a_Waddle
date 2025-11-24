@@ -382,7 +382,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 800, y: 450}
+  m_SizeDelta: {x: 900, y: 550}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &212727830
 MonoBehaviour:
@@ -1735,6 +1735,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e5626da6e8706428e165fd8f96a1d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: 
+  sceneName2: 
+  sceneName3: 
   PauseMenuUI: {fileID: 754452721}
 --- !u!82 &1224631332
 AudioSource:
