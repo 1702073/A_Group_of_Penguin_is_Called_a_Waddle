@@ -1,13 +1,15 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static System.TimeZoneInfo;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-    public string sceneName;
-    public string sceneName2;
-    public string sceneName3;
     public GameObject PauseMenuUI;
+
+    public float transitionTime = 1f;
+    public Animator transition;
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -35,23 +37,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
-    public void LoadMenu()
+    public void LoadMenu(string sceneName)
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneName);
+        FindFirstObjectByType<LevelLoaderTemplate>().LoadLevelByName(sceneName);
     }
-    public void LoadMenu2()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneName2);
-    }
-    public void LoadMenu3()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneName3);
-    }
-
-
     public void QuitGame()
     {
         Debug.Log("Quitting game, bruh did you seriously click this button?");
