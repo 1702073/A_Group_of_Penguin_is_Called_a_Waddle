@@ -4,14 +4,23 @@ using UnityEngine.UI;
 public class Health_Counter : MonoBehaviour
 {
 
+    [Header("Player Prefab")]
+    private GameObject playerPrefab;
 
-   public Slider healthSlider;
-    public Gradient gradient;
-    public Image fill;
+    [Header("Health States")]
     public Image full, half,low, empty;
+    Player_Health_and_Damage player_Health_and_Damage;
 
+    private void Start()
+    {
+        playerPrefab = GameObject.FindWithTag("Player");
+        player_Health_and_Damage = playerPrefab.GetComponent<Player_Health_and_Damage>();
+    }
 
-
+    private void Update()
+    {
+        SetImage(player_Health_and_Damage.playerHealth);
+    }
     //public void SetMaxHealth(int playerHealth)
     //{
     //    healthSlider.maxValue = playerHealth;
@@ -56,6 +65,7 @@ public class Health_Counter : MonoBehaviour
             low.enabled = false;
             empty.enabled = true;
         }
+
     }
 }
 

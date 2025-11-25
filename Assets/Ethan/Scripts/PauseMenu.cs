@@ -4,7 +4,9 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-
+    public string sceneName;
+    public string sceneName2;
+    public string sceneName3;
     public GameObject PauseMenuUI;
     private void Update()
     {
@@ -36,8 +38,19 @@ public class PauseMenu : MonoBehaviour
     public void LoadMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(sceneName);
     }
+    public void LoadMenu2()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneName2);
+    }
+    public void LoadMenu3()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneName3);
+    }
+
 
     public void QuitGame()
     {
