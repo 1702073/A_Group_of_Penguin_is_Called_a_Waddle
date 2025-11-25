@@ -5,12 +5,14 @@ using UnityEngine.InputSystem;
 public class Player_Movement : MonoBehaviour
 {
     private Rigidbody2D _rb;
+    private Animator _animator;
     private Vector2 _moveAmount;
     public float moveSpeed = 5f;
 
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -22,5 +24,8 @@ public class Player_Movement : MonoBehaviour
     {
         Vector2 inputVector = ctx.ReadValue<Vector2>();
         _moveAmount = inputVector * moveSpeed;
+
+        _animator.SetFloat("xMovement", inputVector.x);
+        _animator.SetFloat("yMovement", inputVector.y);
     }
 }

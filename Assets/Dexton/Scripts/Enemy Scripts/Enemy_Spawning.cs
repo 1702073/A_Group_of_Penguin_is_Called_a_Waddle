@@ -3,12 +3,12 @@ using UnityEngine.Rendering;
 
 public class Enemy_Spawning : MonoBehaviour
 {
-    GameObject enemyPrefab;
+    public GameObject enemyPrefab;
 
 
     void Start()
     {
-        enemyPrefab = Resources.Load<GameObject>("Prefabs/Enemy/Enemy_Basic");
+        //enemyPrefab = Resources.Load<GameObject>("Prefabs/Enemy/Enemy_Basic");
         //SpawnEnemy();
     }
 
