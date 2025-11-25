@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7992868767811623138}
   - component: {fileID: 175578675080047278}
-  - component: {fileID: 7122903138665765083}
   - component: {fileID: 692842468334154186}
   - component: {fileID: 7063744211487181444}
+  - component: {fileID: -46253015354672015}
+  - component: {fileID: 7122903138665765083}
   m_Layer: 0
   m_Name: Creepy Spooky Enemy
   m_TagString: Enemy
@@ -90,20 +91,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7122903138665765083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8324078193745592725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c66c3b4de16598488881bc6aa5db3d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 0.5
-  player: {fileID: 0}
 --- !u!50 &692842468334154186
 Rigidbody2D:
   serializedVersion: 5
@@ -167,3 +154,30 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &-46253015354672015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324078193745592725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ab21079c28cff849bfeaa96390b22d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyDamage: 1
+--- !u!114 &7122903138665765083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324078193745592725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c66c3b4de16598488881bc6aa5db3d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0.5
+  player: {fileID: 0}

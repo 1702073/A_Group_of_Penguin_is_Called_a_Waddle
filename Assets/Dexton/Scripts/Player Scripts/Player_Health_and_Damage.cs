@@ -33,15 +33,25 @@ public class Player_Health_and_Damage : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // Add a getcomonent to get the enemy damage then put it in the Damage(1) function
         if (collision.collider.CompareTag("Enemy"))
         {
-            playerHealth--;
-            Debug.Log("player took damage");
-
-            if (playerHealth <= 0)
+            Damage(collision.gameObject.GetComponent<Enemy_Health_and_Damage>()?.enemyDamage ?? 1);
+            if (!collision.gameObject.GetComponent<Enemy_Health_and_Damage>())
             {
-                Die();
+                Debug.LogWarning($"Enemy_Health_and_Damage component not found on {collision.gameObject.name}. Default damage of 1 applied.");
             }
         }
     }
+
+    public void Damage(int damageAmount)
+    {
+        playerHealth -= damageAmount;
+        Debug.Log("player took damage");
+        if (playerHealth <= 0)
+        {
+            Die();
+        }
+    }
+
 }

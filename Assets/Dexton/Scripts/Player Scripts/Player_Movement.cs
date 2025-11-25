@@ -8,6 +8,7 @@ public class Player_Movement : MonoBehaviour
     private Animator _animator;
     private Vector2 _moveAmount;
     public float moveSpeed = 5f;
+    private bool _isMoving;
 
     private void Awake()
     {
@@ -25,7 +26,10 @@ public class Player_Movement : MonoBehaviour
         Vector2 inputVector = ctx.ReadValue<Vector2>();
         _moveAmount = inputVector * moveSpeed;
 
-        _animator.SetFloat("xMovement", inputVector.x);
-        _animator.SetFloat("yMovement", inputVector.y);
+        if (_moveAmount != Vector2.zero)
+        {
+            _animator.SetFloat("xMovement", inputVector.x);
+            _animator.SetFloat("yMovement", inputVector.y);
+        }
     }
 }
