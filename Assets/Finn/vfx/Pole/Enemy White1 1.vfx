@@ -296,7 +296,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614869}
   - {fileID: 8926484042661614870}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661614867}
   m_MasterData:
@@ -442,7 +442,7 @@ MonoBehaviour:
   particlePerStripCount: 72
   needsComputeBounds: 0
   boundsMode: 0
-  m_Space: 1
+  m_Space: 0
 --- !u!114 &8926484042661614872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.DirectionType, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"direction":{"x":1.0,"y":1.0,"z":1.0}}'
+      m_SerializableObject: '{"direction":{"x":1.0299999713897706,"y":1.0,"z":1.0}}'
     m_Space: 0
   m_Property:
     name: Normal
@@ -1548,7 +1548,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615024}
   - {fileID: 8926484042661615028}
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_MasterSlot: {fileID: 8926484042661615023}
   m_MasterData:
