@@ -26,14 +26,14 @@ public class Player_Health_and_Damage : MonoBehaviour
         else
         {
             playerLives--;
-            playerHealth = _defaultHealth; // Reset health for the new life || remeber to change this value if you change the starting health
+            playerHealth = _defaultHealth; // Reset health for the new life
         }
         Debug.Log("player died");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Add a getcomonent to get the enemy damage then put it in the Damage(1) function
+        // Add a get component to get the enemy damage then put it in the Damage(1) function
         if (collision.collider.CompareTag("Enemy"))
         {
             Damage(collision.gameObject.GetComponent<Enemy_Health_and_Damage>()?.enemyDamage ?? 1);

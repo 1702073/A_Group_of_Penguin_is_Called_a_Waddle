@@ -8,9 +8,9 @@ public class Health_Counter : MonoBehaviour
     private GameObject playerPrefab;
 
     [Header("Health States")]
-    public Image full, half,low, empty;
+    public Image full, half, low, empty;
     Player_Health_and_Damage player_Health_and_Damage;
-
+        
     private void Start()
     {
         playerPrefab = GameObject.FindWithTag("Player");
