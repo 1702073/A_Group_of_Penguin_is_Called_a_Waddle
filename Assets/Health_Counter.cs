@@ -9,12 +9,12 @@ public class Health_Counter : MonoBehaviour
 
     [Header("Health States")]
     public Image full, half, low, empty;
-    Player_Health_and_Damage player_Health_and_Damage;
+    Player_Health player_Health_and_Damage;
         
     private void Start()
     {
         playerPrefab = GameObject.FindWithTag("Player");
-        player_Health_and_Damage = playerPrefab.GetComponent<Player_Health_and_Damage>();
+        player_Health_and_Damage = playerPrefab.GetComponent<Player_Health>();
     }
 
     private void Update()

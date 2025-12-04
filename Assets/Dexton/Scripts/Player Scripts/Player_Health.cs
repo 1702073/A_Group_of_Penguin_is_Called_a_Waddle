@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Collider2D))]
-public class Player_Health_and_Damage : MonoBehaviour
+public class Player_Health : MonoBehaviour
 {
     [SerializeField] private int _defaultHealth = 3;
     [SerializeField] private int _defaultLives = 1;
