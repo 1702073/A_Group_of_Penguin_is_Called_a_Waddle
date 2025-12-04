@@ -15,7 +15,7 @@ public class Player_Attack : MonoBehaviour
     }
 
 
-    private void OnCollision2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Enemy"))
         {
