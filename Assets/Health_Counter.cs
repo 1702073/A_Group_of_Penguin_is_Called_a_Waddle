@@ -8,7 +8,7 @@ public class Health_Counter : MonoBehaviour
     private GameObject playerPrefab;
 
     [Header("Health States")]
-    public Image full, half, low, empty;
+    public Image full, half, low, empty, fulllast, halflast, lowlast, emptylast;
     Player_Health player_Health_and_Damage;
         
     private void Start()
@@ -19,7 +19,7 @@ public class Health_Counter : MonoBehaviour
 
     private void Update()
     {
-        SetImage(player_Health_and_Damage.playerHealth);
+        SetImage(player_Health_and_Damage.playerHealth, player_Health_and_Damage.playerLives );
     }
     //public void SetMaxHealth(int playerHealth)
     //{
@@ -35,30 +35,58 @@ public class Health_Counter : MonoBehaviour
 
     //    fill.color = gradient.Evaluate(healthSlider.normalizedValue);
     //}
-    public void SetImage(int playerHealth)
+    public void SetImage(int playerHealth, int extraPlayerLives)
     {
-        if(playerHealth >= 3)
+        if (playerHealth >= 3 && extraPlayerLives >= 1)
         {
             full.enabled = true;
             half.enabled = false;
             low.enabled = false;
             empty.enabled = false;
         }
-        else if(playerHealth == 2)
+        else if(playerHealth == 2 && extraPlayerLives >= 1)
         {
             full.enabled = false;
             half.enabled = true;
             low.enabled = false;
             empty.enabled = false;
         }
-        else if (playerHealth == 1)
+        else if (playerHealth == 1 && extraPlayerLives <= 1)
         {
             full.enabled = false;
             half.enabled = false;
             low.enabled = true;
             empty.enabled = false;
         }
-        else if (playerHealth <= 0)
+        else if (playerHealth <= 0 && extraPlayerLives >= 1)
+        {
+            full.enabled = false;
+            half.enabled = false;
+            low.enabled = false;
+            empty.enabled = true;
+        }
+        else if (playerHealth >= 3 && extraPlayerLives <= 1)
+        {
+            full.enabled = true;
+            half.enabled = false;
+            low.enabled = false;
+            empty.enabled = false;
+        }
+        else if (playerHealth == 2 && extraPlayerLives <= 1)
+        {
+            full.enabled = false;
+            half.enabled = true;
+            low.enabled = false;
+            empty.enabled = false;
+        }
+        else if (playerHealth == 1 && extraPlayerLives <= 1)
+        {
+            full.enabled = false;
+            half.enabled = false;
+            low.enabled = true;
+            empty.enabled = false;
+        }
+        else if (playerHealth <= 0 && extraPlayerLives <= 1)
         {
             full.enabled = false;
             half.enabled = false;
