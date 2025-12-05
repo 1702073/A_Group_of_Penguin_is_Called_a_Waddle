@@ -9,13 +9,14 @@ public class Enemy_Health_and_Damage : MonoBehaviour
     {
         enemyHealth -= damageAmount;
         Debug.Log("enemy took damage");
+
         if (enemyHealth <= 0)
         {
             Die();
         }
     }
 
-    void Die()
+    public void Die()
     {
         Destroy(this.gameObject);
 

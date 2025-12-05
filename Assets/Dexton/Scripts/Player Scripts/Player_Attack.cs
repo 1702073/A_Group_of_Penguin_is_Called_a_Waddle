@@ -9,6 +9,7 @@ public class Player_Attack : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             var enemy = collision.gameObject.GetComponent<Enemy_Health_and_Damage>();
+
             if (enemy != null)
             {
                 enemy.Damage(playerDamage);
