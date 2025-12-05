@@ -9,7 +9,7 @@ public class PolaritySwitch : MonoBehaviour
     public bool Cooldown = false;
     public float CooldownTime = 1.0f;
     public Animator animator;
-    // Internal timer to track remaining cooldown
+    //  timer to track remaining cooldown
     private float cooldownTimer = 0f;
     
     public void Update()
@@ -33,7 +33,6 @@ public class PolaritySwitch : MonoBehaviour
             }
         }
 
-        // If we're on cooldown, decrement the timer
         if (Cooldown)
         {   
             cooldownTimer -= Time.deltaTime;
