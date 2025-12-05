@@ -409,14 +409,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a20f57fc35601049a210ffcdae8198a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dmgVisibility: {fileID: 0}
   full: {fileID: 5304496152527032293}
   half: {fileID: 6768991483497355145}
   low: {fileID: 9048255551621633810}
   empty: {fileID: 5753091848000511498}
-  fulllast: {fileID: 0}
-  halflast: {fileID: 0}
-  lowlast: {fileID: 0}
-  emptylast: {fileID: 0}
 --- !u!1 &8857971706043974557
 GameObject:
   m_ObjectHideFlags: 0

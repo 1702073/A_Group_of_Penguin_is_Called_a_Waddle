@@ -6,11 +6,14 @@ public class Health_Counter : MonoBehaviour
     [Header("Player Prefab")]
     private GameObject playerPrefab;
 
+    [Header("Animatior")]
+    public Animator dmgVisibility;
     [Header("Health States")]
     public Image full;
     public Image half;
     public Image low;
     public Image empty;
+    
     
 
     Player_Health player_Health_and_Damage;
@@ -47,7 +50,7 @@ public class Health_Counter : MonoBehaviour
             half.enabled = false;
             low.enabled = false;
             empty.enabled = false;
-
+            
         }
         else if (playerHealth == 2)
         {
