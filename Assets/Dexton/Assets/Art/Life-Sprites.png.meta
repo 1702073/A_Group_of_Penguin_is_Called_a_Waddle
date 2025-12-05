@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Life-Sprites_0: -6869223734411905302
+      Life-Sprites_1: -4628403662342551653
+      Life-Sprites_2: -6106041293432652290
+      Life-Sprites_3: 5683543517339418898
+      Life-Sprites_4: -7811663447593256030
+      Life-Sprites_5: -9031209570201277586
+      Life-Sprites_6: 5570756079153532594
+      Life-Sprites_7: 8013911612952810831
+      Life-Sprites_8: 7599740563203896670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
