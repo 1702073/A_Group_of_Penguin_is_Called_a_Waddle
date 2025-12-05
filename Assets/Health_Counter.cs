@@ -8,7 +8,15 @@ public class Health_Counter : MonoBehaviour
     private GameObject playerPrefab;
 
     [Header("Health States")]
-    public Image full, half, low, empty;
+    public Image full;
+    public Image half;
+    public Image low;
+    public Image empty;
+    public Image fulllast;
+    public Image halflast;
+    public Image lowlast;
+    public Image emptylast;
+
     Player_Health player_Health_and_Damage;
         
     private void Start()
@@ -19,7 +27,7 @@ public class Health_Counter : MonoBehaviour
 
     private void Update()
     {
-        SetImage(player_Health_and_Damage.playerHealth);
+        SetImage(player_Health_and_Damage.playerHealth, player_Health_and_Damage.playerLives );
     }
     //public void SetMaxHealth(int playerHealth)
     //{
@@ -35,35 +43,95 @@ public class Health_Counter : MonoBehaviour
 
     //    fill.color = gradient.Evaluate(healthSlider.normalizedValue);
     //}
-    public void SetImage(int playerHealth)
+    public void SetImage(int playerHealth, int extraPlayerLives)
     {
-        if(playerHealth >= 3)
+        if (playerHealth >= 3 && extraPlayerLives >= 1)
         {
             full.enabled = true;
             half.enabled = false;
             low.enabled = false;
             empty.enabled = false;
+            fulllast.enabled = false;
+            halflast.enabled = false;
+            lowlast.enabled = false;
+            emptylast.enabled = false;
         }
-        else if(playerHealth == 2)
+        else if(playerHealth == 2 && extraPlayerLives >= 1)
         {
             full.enabled = false;
             half.enabled = true;
             low.enabled = false;
             empty.enabled = false;
+            fulllast.enabled = false;
+            halflast.enabled = false;
+            lowlast.enabled = false;
+            emptylast.enabled = false;
         }
-        else if (playerHealth == 1)
+        else if (playerHealth == 1 && extraPlayerLives >= 1)
         {
             full.enabled = false;
             half.enabled = false;
             low.enabled = true;
             empty.enabled = false;
+            fulllast.enabled = false;
+            halflast.enabled = false;
+            lowlast.enabled = false;
+            emptylast.enabled = false;
         }
-        else if (playerHealth <= 0)
+        else if (playerHealth <= 0 && extraPlayerLives >= 1)
         {
             full.enabled = false;
             half.enabled = false;
             low.enabled = false;
             empty.enabled = true;
+            fulllast.enabled = false;
+            halflast.enabled = false;
+            lowlast.enabled = false;
+            emptylast.enabled = false;
+        }
+        else if (playerHealth >= 3 && extraPlayerLives <= 0)
+        {
+            full.enabled = false;
+            half.enabled = false;
+            low.enabled = false;
+            empty.enabled = false;
+            fulllast.enabled = true;
+            halflast.enabled = false;
+            lowlast.enabled = false;
+            emptylast.enabled = false;
+        }
+        else if (playerHealth == 2 && extraPlayerLives <= 0)
+        {
+            full.enabled = false;
+            half.enabled = false;
+            low.enabled = false;
+            empty.enabled = false;
+            fulllast.enabled = false;
+            halflast.enabled = true;
+            lowlast.enabled = false;
+            emptylast.enabled = false;
+        }
+        else if (playerHealth == 1 && extraPlayerLives <= 0)
+        {
+            full.enabled = false;
+            half.enabled = false;
+            low.enabled = false;
+            empty.enabled = false;
+            fulllast.enabled = false;
+            halflast.enabled = false;
+            lowlast.enabled = true;
+            emptylast.enabled = false;
+        }
+        else if (playerHealth <= 0 && extraPlayerLives <= 0)
+        {
+            full.enabled = false;
+            half.enabled = false;
+            low.enabled = false;
+            empty.enabled = false;
+            fulllast.enabled = false;
+            halflast.enabled = false;
+            lowlast.enabled = false;
+            emptylast.enabled = true;
         }
 
     }
