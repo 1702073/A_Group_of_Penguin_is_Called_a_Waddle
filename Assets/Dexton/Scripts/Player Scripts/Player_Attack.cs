@@ -4,25 +4,14 @@ public class Player_Attack : MonoBehaviour
 {
     public float playerDamage = 1f;
 
-
-
-
-    private void Start()
+    private void OnTriggerStay2D(Collider2D collision)
     {
-
-
-
-    }
-
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
-            var enemyHealth = collision.gameObject.GetComponent<Enemy_Health_and_Damage>();
-            if (enemyHealth != null)
+            var enemy = collision.gameObject.GetComponent<Enemy_Health_and_Damage>();
+            if (enemy != null)
             {
-               // enemyHealth.Damage(Mathf.RoundToInt(playerDamage));
+                enemy.Damage(playerDamage);
             }
             else
             {
@@ -30,4 +19,20 @@ public class Player_Attack : MonoBehaviour
             }
         }
     }
+
+    //private void OnTriggerStay2D(Collision2D collision)
+    //{
+    //    if (collision.collider.CompareTag("Enemy"))
+    //    {
+    //        var enemy = collision.gameObject.GetComponent<Enemy_Health_and_Damage>();
+    //        if (enemy != null)
+    //        {
+    //            enemy.Damage(playerDamage);
+    //        }
+    //        else
+    //        {
+    //            Debug.LogWarning($"Enemy_Health_and_Damage component not found on {collision.gameObject.name}. No damage applied.");
+    //        }
+    //    }
+    //}
 }

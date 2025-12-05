@@ -29,7 +29,7 @@ public class WaveManager : MonoBehaviour
         {
             Enemy_Spawning Enemy_Spawning = spawner.GetComponent<Enemy_Spawning>();
             Enemy_Spawning.SpawnEnemy(Enemy_Spawning.enemyCount);
-            Enemy_Spawning.enemyCount += 2; // Increase enemy count for next wave
+            Enemy_Spawning.enemyCount *= 2; // Increase enemy count for next wave
         }
     }
 }

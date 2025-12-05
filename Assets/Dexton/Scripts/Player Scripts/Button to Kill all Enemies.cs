@@ -6,7 +6,6 @@ public class ButtontoKillallEnemies : MonoBehaviour
     public KeyCode deathToAll = KeyCode.K;
     private GameObject[] _enemiesAlive;
     Enemy_Health_and_Damage enemy_Health_and_Damage;
-    private GameObject uhasl;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

@@ -3,9 +3,9 @@ using UnityEngine;
 public class Enemy_Health_and_Damage : MonoBehaviour
 {
     public int enemyDamage= 1;
-    public int enemyHealth = 3;
+    public float enemyHealth = 3f;
 
-    public void Damage(int damageAmount)
+    public void Damage(float damageAmount)
     {
         enemyHealth -= damageAmount;
         Debug.Log("enemy took damage");
