@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Dizzolve : MonoBehaviour
 {
-    public Material material;
+    public SpriteRenderer Sprite;
     public float dizzolveAmount = 0;
     
     public Color white = Color.black;
@@ -17,7 +17,7 @@ public class Dizzolve : MonoBehaviour
     {
         Enemy_Health_and_Damage enemyHealth = GetComponent<Enemy_Health_and_Damage>();
         dizzolveAmount = enemyHealth.enemyHealth / 100;
-        material.SetFloat("_DissolveAmount", 1 - dizzolveAmount);
+        Sprite.material.SetFloat("_Dizzolve",dizzolveAmount * 100);
         // renderer.material.SetColor("_Color", black);
     }
 }
