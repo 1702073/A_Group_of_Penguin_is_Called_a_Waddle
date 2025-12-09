@@ -195,6 +195,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428c8a484f4ecc04fa938cedade874c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 1dee8d8c1d79d094f9c110a98b46d713, type: 2}
-  dizzolveAmount: 0
+  Sprite: {fileID: 0}
+  dizzolveAmount: 100
   white: {r: 0, g: 0, b: 0, a: 1}
