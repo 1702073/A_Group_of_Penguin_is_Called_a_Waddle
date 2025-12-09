@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Ethan/Settings.unity
     guid: a694e8a3e72192443af595d45c472126
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
@@ -23,6 +23,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Build Scene.unity
     guid: 5380b174f5b54ec47b7d9b3c3cc0983d
+  - enabled: 1
+    path: Assets/Dexton/Scenes/Credit Scenes/Bella's Credit Scene.unity
+    guid: ad73f1f8342b4804283b4d41d9c9db9a
+  - enabled: 1
+    path: Assets/Dexton/Scenes/Credit Scenes/Chloe's Credit Scene.unity
+    guid: 4b15087741f26d444a18a4162a52a1c1
+  - enabled: 1
+    path: Assets/Dexton/Scenes/Credit Scenes/Credits.unity
+    guid: 75834ae478ae72c43a21322a9e6b5120
+  - enabled: 1
+    path: Assets/Dexton/Scenes/Credit Scenes/Dexton's Credit Scene.unity
+    guid: 7de7dcffa96df7046b8e6d54707bb98c
+  - enabled: 1
+    path: Assets/Dexton/Scenes/Credit Scenes/Ethan's Credit Scene.unity
+    guid: c71d6cae85f7ecf488c8500951ed9094
+  - enabled: 1
+    path: Assets/Dexton/Scenes/Credit Scenes/Finn's Credit Scene.unity
+    guid: db93c724306e08b4ebd8fa51d41d1494
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 7667cd40305d4a54f8aa28688f428dd9, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
