@@ -1422,6 +1422,76 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1524093419
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6452394099668963309, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: Sprite
+      value: 
+      objectReference: {fileID: 1524093420}
+    - target: {fileID: 6452394099668963309, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: 1dee8d8c1d79d094f9c110a98b46d713, type: 2}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -80.2606
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.574836
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!212 &1524093420 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 175578675080047278, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+  m_PrefabInstance: {fileID: 1524093419}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1589168286
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,3 +2089,4 @@ SceneRoots:
   - {fileID: 2130538111}
   - {fileID: 1172749200}
   - {fileID: 1355107757}
+  - {fileID: 1524093419}

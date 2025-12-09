@@ -6,8 +6,8 @@ public class Health_Counter : MonoBehaviour
     [Header("Player Prefab")]
     private GameObject playerPrefab;
 
-    [Header("Animatior")]
-    public Animator dmgVisibility;
+    [Header("HealthCounting Animator")]
+    public Animator HealthCounting;
     [Header("Health States")]
     public Image full;
     public Image half;
@@ -46,34 +46,42 @@ public class Health_Counter : MonoBehaviour
     {
         if (playerHealth >= 3)
         {
+            
             full.enabled = true;
             half.enabled = false;
             low.enabled = false;
             empty.enabled = false;
-            
+            HealthCounting.SetTrigger("Full");
+
         }
         else if (playerHealth == 2)
         {
+            
             full.enabled = false;
             half.enabled = true;
             low.enabled = false;
             empty.enabled = false;
+            HealthCounting.SetTrigger("Half");
 
         }
         else if (playerHealth == 1)
         {
+            
             full.enabled = false;
             half.enabled = false;
             low.enabled = true;
             empty.enabled = false;
+            HealthCounting.SetTrigger("Low");
 
         }
         else if (playerHealth <= 0)
         {
+            
             full.enabled = false;
             half.enabled = false;
             low.enabled = false;
             empty.enabled = true;
+            HealthCounting.SetTrigger("Empty");
 
         }
         else
