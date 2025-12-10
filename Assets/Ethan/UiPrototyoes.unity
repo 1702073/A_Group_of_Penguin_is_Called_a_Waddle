@@ -1122,7 +1122,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1587,9 +1587,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -3728700696144076750, guid: c0ff083b5f728034f8f12e33e60a4ff7, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 13e58f469bd41c54b88f37dc2c8179b1, type: 3}
-  m_Resource: {fileID: 8300000, guid: 13e58f469bd41c54b88f37dc2c8179b1, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: b51a1331347b5a34482ef8d5dc0879ee, type: 3}
+  m_Resource: {fileID: 8300000, guid: b51a1331347b5a34482ef8d5dc0879ee, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2571,8 +2571,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1918059647}
-  - component: {fileID: 1918059646}
   - component: {fileID: 1918059648}
+  - component: {fileID: 1918059649}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
@@ -2580,21 +2580,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1918059646
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918059645}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8cbd702daef8d542a8f47e002259125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startAudio: {fileID: 1170810099}
-  loopedAudio: {fileID: 945549443}
-  endAudio: {fileID: 0}
 --- !u!4 &1918059647
 Transform:
   m_ObjectHideFlags: 0
@@ -2624,7 +2609,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -3728700696144076750, guid: c0ff083b5f728034f8f12e33e60a4ff7, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2709,6 +2694,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1918059649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918059645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ebe48218880214fb5add07c9ab3c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicDuration: 0
+  goalTime: 1
+  _audioSources:
+  - {fileID: 1170810099}
+  - {fileID: 945549443}
+  audioToggle: 0
+  currentClip: {fileID: 8300000, guid: 13e58f469bd41c54b88f37dc2c8179b1, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
