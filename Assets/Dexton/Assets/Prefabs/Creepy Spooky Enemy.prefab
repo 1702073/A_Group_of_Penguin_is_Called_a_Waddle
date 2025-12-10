@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -46253015354672015}
   - component: {fileID: 7122903138665765083}
   - component: {fileID: 6452394099668963309}
+  - component: {fileID: 2295660410844801762}
   m_Layer: 0
   m_Name: Creepy Spooky Enemy
   m_TagString: Enemy
@@ -195,6 +196,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428c8a484f4ecc04fa938cedade874c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sprite: {fileID: 0}
+  Sprite: {fileID: 175578675080047278}
   dizzolveAmount: 100
   white: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &2295660410844801762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324078193745592725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 630b78fc2aa213447b48aa3c56bcbf13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjects:
+  - {fileID: 656289383255826171, guid: 8b3579b2f0fd6df41b6049d64a132caa, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

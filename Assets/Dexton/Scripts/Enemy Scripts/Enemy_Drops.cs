@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class Enemy_Drops : MonoBehaviour
 { // Put on Enemy
-    public List<scr>
-    public int
+    public List<GameObject> gameObjects;
 
     public void Drop_Item()
     {
