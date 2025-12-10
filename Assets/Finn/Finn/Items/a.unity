@@ -119,6 +119,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &2945549
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.888264
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0210364
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &16364421
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,6 +381,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &53075191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.179361
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9664431
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &53787400
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +556,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &80438502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.361069
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83922744
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &100057417
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,6 +704,128 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &100659627
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.615498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1483028
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &104543642
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.397633
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.129918
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (24)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &124716742
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +913,128 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &190929833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.742817
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.802662
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &230304896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.852055
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4573779
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (18)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &265957849
 GameObject:
   m_ObjectHideFlags: 0
@@ -809,6 +1236,128 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &331060166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (27)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &421041714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.651962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83922744
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &654412886
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +1464,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &766753747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &826981582
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +1558,311 @@ Transform:
   - {fileID: 1275440928}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &838719306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.724636
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4937396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &856211159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.070173
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8755894
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &863583149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.06987
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.675396
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &904745945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (31)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &906703317
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &914409508
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +2033,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &927410630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.74307
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.184512
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &961032523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1254,6 +2230,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1124622506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2880694296165715551, guid: 22d8186445d1dc849b4122bc983d2821, type: 3}
+  m_PrefabInstance: {fileID: 4429722166889913180}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1124795913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (25)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &1172749198
 GameObject:
   m_ObjectHideFlags: 0
@@ -1336,7 +2378,7 @@ Transform:
   m_GameObject: {fileID: 1172749198}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -77.14, y: 7.91, z: 0}
+  m_LocalPosition: {x: -78.72, y: 5.56, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1505,6 +2547,189 @@ Transform:
   m_Children: []
   m_Father: {fileID: 826981583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1291051982
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (28)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1292639927
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.48505
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.660203
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (26)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1332974778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.397482
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.184563
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &1355107755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,7 +2817,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1524093419
+--- !u!1001 &1370499968
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1600,21 +2825,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6452394099668963309, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
-      propertyPath: Sprite
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
       value: 
-      objectReference: {fileID: 1524093420}
-    - target: {fileID: 6452394099668963309, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
-      propertyPath: material
-      value: 
-      objectReference: {fileID: 2100000, guid: 1dee8d8c1d79d094f9c110a98b46d713, type: 2}
+      objectReference: {fileID: 1124622506}
     - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -75.52
+      value: -33.579086
       objectReference: {fileID: 0}
     - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.11
+      value: 3.1300201
       objectReference: {fileID: 0}
     - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1650,18 +2871,135 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
       propertyPath: m_Name
-      value: Creepy Spooky Enemy
+      value: Creepy Spooky Enemy (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
---- !u!212 &1524093420 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 175578675080047278, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
-  m_PrefabInstance: {fileID: 1524093419}
-  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1384750691
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.324757
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2028456
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (17)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1473482519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (29)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &1589168286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,6 +3087,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1618781532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.83367
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.78438
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &1626606274
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +3179,250 @@ Transform:
   m_Children: []
   m_Father: {fileID: 826981583}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1640040158
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.252033
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.1844616
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1662017043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.37925
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83922744
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1716726585
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1764213939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -28.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &1781933157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,6 +3507,189 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1808127506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.415764
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9118495
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1818357007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -32.615498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1483028
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1833217742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1001 &1846942143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2071,6 +3897,311 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1862016060
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.361069
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.83922744
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &1973494851
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.797562
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3118799
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (20)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &2047331068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.384553
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &2059699645
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.579443
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.693577
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (23)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+--- !u!1001 &2062681590
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7122903138665765083, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1124622506}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.506464
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.948313
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8324078193745592725, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Name
+      value: Creepy Spooky Enemy (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
 --- !u!1 &2130538108
 GameObject:
   m_ObjectHideFlags: 0
@@ -2291,5 +4422,40 @@ SceneRoots:
   - {fileID: 1172749200}
   - {fileID: 654412889}
   - {fileID: 1355107757}
-  - {fileID: 1524093419}
   - {fileID: 826981583}
+  - {fileID: 1833217742}
+  - {fileID: 906703317}
+  - {fileID: 1764213939}
+  - {fileID: 766753747}
+  - {fileID: 1716726585}
+  - {fileID: 904745945}
+  - {fileID: 2047331068}
+  - {fileID: 1473482519}
+  - {fileID: 1291051982}
+  - {fileID: 331060166}
+  - {fileID: 1292639927}
+  - {fileID: 1124795913}
+  - {fileID: 104543642}
+  - {fileID: 2059699645}
+  - {fileID: 927410630}
+  - {fileID: 1808127506}
+  - {fileID: 1973494851}
+  - {fileID: 53075191}
+  - {fileID: 230304896}
+  - {fileID: 1384750691}
+  - {fileID: 856211159}
+  - {fileID: 1862016060}
+  - {fileID: 80438502}
+  - {fileID: 1662017043}
+  - {fileID: 421041714}
+  - {fileID: 2062681590}
+  - {fileID: 2945549}
+  - {fileID: 100659627}
+  - {fileID: 1818357007}
+  - {fileID: 863583149}
+  - {fileID: 1618781532}
+  - {fileID: 1640040158}
+  - {fileID: 838719306}
+  - {fileID: 1332974778}
+  - {fileID: 190929833}
+  - {fileID: 1370499968}
