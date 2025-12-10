@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -5,10 +6,13 @@ using UnityEngine;
 
 public class Enemy_Drops : MonoBehaviour
 { // Put on Enemy
+
     public List<GameObject> gameObjects;
 
     public void Drop_Item()
     {
+        Console.WriteLine("Dropping Item");
 
+        Instantiate(gameObjects[UnityEngine.Random.Range(0, gameObjects.Count)], transform.position, Quaternion.identity);
     }
 }
