@@ -1,5 +1,7 @@
 using UnityEngine;
-[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(Collider2D))] // Base Unity Stuff
+
+[RequireComponent(typeof(Enemy_Health_and_Damage), typeof(Enemy_Drops))] // Enemy Scripts
 
 public class Enemy_Movement : MonoBehaviour
 {
