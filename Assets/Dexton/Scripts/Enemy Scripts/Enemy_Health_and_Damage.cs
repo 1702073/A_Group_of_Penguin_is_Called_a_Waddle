@@ -9,6 +9,10 @@ public class Enemy_Health_and_Damage : MonoBehaviour
 
     Enemy_Drops enemy_Drops;
 
+    public void Awake()
+    {
+        enemy_Drops = GetComponent<Enemy_Drops>();
+    }
 
     public void Damage(float damageAmount)
     {
