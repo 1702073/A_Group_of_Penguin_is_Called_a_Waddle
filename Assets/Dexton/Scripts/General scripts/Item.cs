@@ -1,17 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
 
 
-[CreateAssetMenu(menuName = "Scriptable object/Item")]
+[CreateAssetMenu(menuName = "Scriptable objects/Items")]
 public class Item : ScriptableObject
 {
     
 
     [Header("Only gameplay")]
-    public ItemType type;
-    public ActionType actionType;
+    public ItemType itemType;
+    public ActionType actionType; 
+
     public Vector2Int range = new Vector2Int(5, 4);
 
 
@@ -22,20 +24,27 @@ public class Item : ScriptableObject
 
     [Header("Both")]
     public Sprite image;
-}
 
 
-public enum ItemType
-{
-   Weapon, Tool, Resource,
-}
+    public enum ItemType
+    {
+        None,
+        Weapon,
+        Tool,
+        Consumable,
+        Miscellaneous
+    }
+
+    public enum ActionType
+    {
+        None,
+        Place,
+        Remove,
+        Use
+    }
 
 
-public enum ActionType
-{
-    EquipBow, 
-    EquipSword,
-    UsePotion,
+
 }
 
 
