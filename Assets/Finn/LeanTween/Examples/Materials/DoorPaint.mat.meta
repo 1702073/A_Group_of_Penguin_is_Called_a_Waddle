@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Finn/LeanTween/Examples/Materials/DoorPaint.mat.meta
 guid: 4e6126059dacf7a40a0fc2bcc0defefc
 NativeFormatImporter:
+========
+guid: 1b119ccb91d197043af1cd38dad5fd7d
+PrefabImporter:
+>>>>>>>> 0641dc536b3f3cce2115bc111099f19ebec26886:Assets/Dexton/Assets/Prefabs/Capsule.prefab.meta
   externalObjects: {}
   mainObjectFileID: 0
   userData: 
