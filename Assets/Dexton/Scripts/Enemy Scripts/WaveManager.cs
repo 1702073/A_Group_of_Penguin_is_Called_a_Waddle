@@ -23,6 +23,8 @@ public class WaveManager : MonoBehaviour
     }
     private void NextWave()
     {
+        //_enemySpawners = GameObject.FindGameObjectsWithTag("EnemySpawner"); // This is an evil line of code that hurts the players
+
         _WaveNumber++;
 
         foreach (var spawner in _enemySpawners)
