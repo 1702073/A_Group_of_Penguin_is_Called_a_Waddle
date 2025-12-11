@@ -4,12 +4,14 @@ using UnityEngine.Rendering;
 public class Enemy_Spawning : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public int enemyCount;
+    private Transform Black;
+    private Transform White;
+
     private float _randX;
     private float _randY;
     private bool black = false;
-    private Transform Black;
-    private Transform White;
+
+    public int enemyCount;
 
     void Awake()
     {
@@ -27,24 +29,8 @@ public class Enemy_Spawning : MonoBehaviour
             _randY = Random.Range(-3f, 3f);
 
             Vector2 variation = new Vector2(_randX, _randY);
-            
-            
-            
-            if (black == true)
-            {
-                var newEnemy = Instantiate(enemyPrefab, Black);
-                newEnemy.transform.localPosition += new Vector3(variation.x, variation.y, 0);
-
-                black = false;
-            }
-            else
-            {
-                var newEnemy = Instantiate(enemyPrefab, White);
-                newEnemy.transform.localPosition += new Vector3(variation.x, variation.y, 0);
-
-
-                black = true;
-            }
+            var newEnemy = Instantiate(enemyPrefab, transform + variation);
+            newEnemy.transform.localPosition += new Vector3(variation.x, variation.y, 0);
         }
     }
 }
