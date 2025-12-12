@@ -7,7 +7,7 @@ using UnityEngine;
 public class Enemy_Drops : MonoBehaviour
 { // Put on Enemy
 
-    public List<GameObject> gameObjects;
+    public List<Item> gameObjects;
 
     public void Drop_Item()
     {

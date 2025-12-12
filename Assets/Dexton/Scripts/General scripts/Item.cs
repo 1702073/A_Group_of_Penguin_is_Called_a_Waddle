@@ -43,9 +43,6 @@ public class Item : ScriptableObject
         Remove,
         Use
     }
-
-
-
 }
 
 
