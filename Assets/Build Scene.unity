@@ -1042,6 +1042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 924696875}
+  buttonSound: {fileID: 8300000, guid: 4c541be7d370dfb419528a9cf8bc18cd, type: 3}
   transitionTime: 1
   transition: {fileID: 0}
 --- !u!82 &996658675
@@ -2680,4 +2681,4 @@ SceneRoots:
   - {fileID: 1440810572}
   - {fileID: 876475539}
   - {fileID: 1935865201}
-
+  - {fileID: 355958336}
