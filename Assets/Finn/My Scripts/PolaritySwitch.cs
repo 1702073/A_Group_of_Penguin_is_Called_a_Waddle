@@ -42,6 +42,10 @@ public class PolaritySwitch : MonoBehaviour
                 Cooldown = false;
             }
         }
+        else if (!Cooldown)
+        {
+            Cooldown = true;
+        }
     }
 
     public void SwitchPolarity()

@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7122903138665765083}
   - component: {fileID: 6452394099668963309}
   - component: {fileID: 2295660410844801762}
+  - component: {fileID: 2218908173959021526}
   m_Layer: 0
   m_Name: Creepy Spooky Enemy
   m_TagString: Enemy
@@ -32,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 8324078193745592725}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.76086, y: 0.4853467, z: 0}
+  m_LocalPosition: {x: -10.8244295, y: 14.8582115, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -183,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
-  player: {fileID: 0}
+  player: {fileID: 5394743801359527132, guid: 3e73a035d2ea9284bb72a92d9118e2fd, type: 3}
 --- !u!114 &6452394099668963309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -196,9 +197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 428c8a484f4ecc04fa938cedade874c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Sprite: {fileID: 175578675080047278}
+  EnemySprite: {fileID: 175578675080047278}
   dizzolveAmount: 100
-  white: {r: 0, g: 0, b: 0, a: 1}
+  black: {r: 0, g: 0, b: 0, a: 1}
+  white: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &2295660410844801762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,3 +218,17 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+--- !u!114 &2218908173959021526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324078193745592725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4110cb1a1d9d7694b861213fba726f0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whitePole: {fileID: 3369297925713050892, guid: 4a52b10a5ecb0a947b28ba0f123698f0, type: 3}
+  blackPole: {fileID: 8183231493481153218, guid: 49414bc222ff884419beffed96b8857c, type: 3}

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - EnemySpawner
+  - notplayer
+  - white
+  - black
   layers:
   - Default
   - TransparentFX
