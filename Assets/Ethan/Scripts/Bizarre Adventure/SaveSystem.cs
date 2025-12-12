@@ -7,7 +7,7 @@ public static class SaveSystem
     public static void SavePlayer(Player_Health playerH, Player_Movement playerS)
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/player.The monster you created has returned... to kill you!";
+        string path = Application.persistentDataPath + "/player.fun";
         FileStream stream = new FileStream(path, FileMode.Create);
 
         PlayerData data = new PlayerData(playerH, playerS);
@@ -16,7 +16,7 @@ public static class SaveSystem
     }
     public static  PlayerData LoadPlayer()
     {
-        string path = Application.persistentDataPath + "/player.The monster you created has returned... to kill you!";
+        string path = Application.persistentDataPath + "/player.fun";
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
