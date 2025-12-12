@@ -19,7 +19,7 @@ public class Item : ScriptableObject
 
 
     [Header("Only UI")]
-    //public bool stackable = true;
+    public bool stackable;
     //public int maxStack = 20;
 
     [Header("Both")]

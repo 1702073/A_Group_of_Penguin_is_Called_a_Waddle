@@ -27,7 +27,7 @@ public class Player_Health : MonoBehaviour
                 Debug.LogWarning($"Enemy_Health_and_Damage component not found on {collision.gameObject.name}. Default damage of 1 applied.");
             }
         }
-
+        /*
         if (collision.collider.Item)
         {
             Damage(collision.gameObject.GetComponent<Enemy_Health_and_Damage>()?.enemyDamage ?? 1);
@@ -36,6 +36,7 @@ public class Player_Health : MonoBehaviour
                 Debug.LogWarning($"Enemy_Health_and_Damage component not found on {collision.gameObject.name}. Default damage of 1 applied.");
             }
         }
+        */
     }
 
     public void Heal(int healAmount)

@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 876279186ce8b3e40a09dd9c59433039, type: 3}
-  m_Name: Heal
+  m_Name: Health
   m_EditorClassIdentifier: 
-  itemType: 3
+  itemType: 0
   actionType: 0
-  range: {x: 5, y: 4}
   stackable: 0
-  maxStack: 1
   image: {fileID: 0}
