@@ -14,13 +14,13 @@ public class Item : ScriptableObject
     public ItemType itemType;
     public ActionType actionType; 
 
-    public Vector2Int range = new Vector2Int(5, 4);
+    //public Vector2Int range = new Vector2Int(5, 4);
 
 
 
     [Header("Only UI")]
-    public bool stackable = true;
-    public int maxStack = 20;
+    //public bool stackable = true;
+    //public int maxStack = 20;
 
     [Header("Both")]
     public Sprite image;
@@ -32,7 +32,8 @@ public class Item : ScriptableObject
         Weapon,
         Tool,
         Consumable,
-        Miscellaneous
+        Buff, 
+        Health
     }
 
     public enum ActionType
