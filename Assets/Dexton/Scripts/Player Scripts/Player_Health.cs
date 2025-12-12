@@ -78,23 +78,6 @@ public class Player_Health : MonoBehaviour
         }
         Debug.Log("player died");
     }
-    public void SavePlayer(Player_Movement player_movement)
-    {
-        SaveSystem.SavePlayer(this, GetComponent<Player_Movement>());
-    }
-    public void LoadPlayer(Player_Movement player_movement)
-    {
-
-        PlayerData data = SaveSystem.LoadPlayer();
-        playerHealth = data.playerHealth;
-        playerLives = data.playerLives;
-        
-        player_movement.moveSpeed = data.moveSpeed;
-        Vector3 position;
-        position.x = data.position[0];
-        position.y = data.position[1];
-        position.z = data.position[2];
-        transform.position = position;
-    }
+   
 
 }
