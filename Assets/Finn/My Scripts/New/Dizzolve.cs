@@ -22,12 +22,12 @@ public class Dizzolve : MonoBehaviour
         EnemySprite.material.SetFloat("_Dizzolve",dizzolveAmount * 100);
 
         PolaritySwitch polarity = GetComponent<PolaritySwitch>();
-        if (polarity == true)
+        if (polarity != null && polarity.Polarity)
         {
             EnemySprite.material.SetColor("_Color", white);
             EnemySprite.material.SetColor("_EdgeColor", black);
         }
-        else
+        else if (polarity != null)
         {
             EnemySprite.material.SetColor("_Color", black);
             EnemySprite.material.SetColor("_EdgeColor", white);

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6452394099668963309}
   - component: {fileID: 2295660410844801762}
   - component: {fileID: 2218908173959021526}
+  - component: {fileID: 3014374593686861499}
   m_Layer: 0
   m_Name: Creepy Spooky Enemy
   m_TagString: Enemy
@@ -232,3 +233,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whitePole: {fileID: 3369297925713050892, guid: 4a52b10a5ecb0a947b28ba0f123698f0, type: 3}
   blackPole: {fileID: 8183231493481153218, guid: 49414bc222ff884419beffed96b8857c, type: 3}
+--- !u!114 &3014374593686861499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324078193745592725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec9c2c2c1469beb4b82a98fcfe7d134c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
