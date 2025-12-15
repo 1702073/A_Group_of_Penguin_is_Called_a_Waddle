@@ -7,6 +7,9 @@ public class Dizzolve : MonoBehaviour
 
     public Color black = Color.black;
     public Color white = Color.white;
+    public bool IsTakingDamage = false;
+    public float LastHealth;
+    public GameObject dissolveVFX;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,7 +19,7 @@ public class Dizzolve : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
         Enemy_Health_and_Damage enemyHealth = GetComponent<Enemy_Health_and_Damage>();
         dizzolveAmount = enemyHealth.enemyHealth / 100;
         EnemySprite.material.SetFloat("_Dizzolve",dizzolveAmount * 100);
@@ -33,5 +36,30 @@ public class Dizzolve : MonoBehaviour
             EnemySprite.material.SetColor("_EdgeColor", white);
 
         }
+
+
+
+        if (enemyHealth.enemyHealth != LastHealth)
+        {
+            IsTakingDamage = true;
+            LastHealth = enemyHealth.enemyHealth;
+            Debug.Log("Taking Damage");
+        }
+        else
+        {
+            IsTakingDamage = false;
+            Debug.Log("Not Taking Damage FUCK YOU");
+        }
+
+
+        if (IsTakingDamage)
+        {
+        dissolveVFX.SetActive(true);
+        }
+        else
+        {
+         dissolveVFX.SetActive(false);
+        }
     }
+
 }
