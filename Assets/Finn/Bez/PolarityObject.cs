@@ -1,11 +1,13 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PolarityObject : MonoBehaviour
 {
     SpriteRenderer sr;
-    
+    Image img;
+
     void Start()
     {
+        img = GetComponent<Image>();
         sr = GetComponent<SpriteRenderer>();
         UpdateColor();
     }
@@ -21,6 +23,7 @@ public class PolarityObject : MonoBehaviour
         {
             Color targetColor = PolarityManager.Instance.GetCurrentColor();
             sr.material.SetColor("_Color", targetColor);
+            img.material.SetColor("_Color", targetColor);
         }
     }
 }
