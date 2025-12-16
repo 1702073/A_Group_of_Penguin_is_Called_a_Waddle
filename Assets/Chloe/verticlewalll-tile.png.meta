@@ -1,28 +1,10 @@
 fileFormatVersion: 2
-guid: c7677aec0599efe4da8783a89efdba41
+guid: 376d1108252741549b35ee6b8e1cc311
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -858182842454899178
-    second: Switch-Sprites_0
-  - first:
-      213: -473086261279802208
-    second: Switch-Sprites_1
-  - first:
-      213: 3016421417374747253
-    second: Switch-Sprites_2
-  - first:
-      213: 2205477762673202644
-    second: Switch-Sprites_3
-  - first:
-      213: -6766557865253523538
-    second: Switch-Sprites_4
-  - first:
-      213: -7803805118995899720
-    second: Switch-Sprites_5
-  - first:
-      213: 5390448927721288841
-    second: Switch-Sprites_6
+      213: 6369789874073055896
+    second: verticlewalll-tile_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Switch-Sprites_0
+      name: verticlewalll-tile_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 306
-        width: 272
-        height: 370
+        x: 0
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,140 +141,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 616042b604f1714f0800000000000000
-      internalID: -858182842454899178
+      spriteID: 8923102542a066850800000000000000
+      internalID: 6369789874073055896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Switch-Sprites_1
+      name: verticlewalll-tile_1
       rect:
         serializedVersion: 2
-        x: 316
-        y: 306
-        width: 272
-        height: 370
+        x: 50
+        y: 0
+        width: 50
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0acbc484d824f69f0800000000000000
-      internalID: -473086261279802208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Switch-Sprites_2
-      rect:
-        serializedVersion: 2
-        x: 616
-        y: 306
-        width: 272
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 57a80832c4b7cd920800000000000000
-      internalID: 3016421417374747253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Switch-Sprites_3
-      rect:
-        serializedVersion: 2
-        x: 916
-        y: 306
-        width: 272
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d5d82c075e6b9e10800000000000000
-      internalID: 2205477762673202644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Switch-Sprites_4
-      rect:
-        serializedVersion: 2
-        x: 1216
-        y: 306
-        width: 272
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaf2079e87b5812a0800000000000000
-      internalID: -6766557865253523538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Switch-Sprites_5
-      rect:
-        serializedVersion: 2
-        x: 1516
-        y: 306
-        width: 272
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8badfd1379053b390800000000000000
-      internalID: -7803805118995899720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Switch-Sprites_6
-      rect:
-        serializedVersion: 2
-        x: 1816
-        y: 306
-        width: 272
-        height: 370
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98476bc6db8beca40800000000000000
-      internalID: 5390448927721288841
+      spriteID: 979585c2d1f6f334b8c7d16df4fdfae0
+      internalID: 1493421176
       vertices: []
       indices: 
       edges: []
@@ -301,7 +173,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e281d4d6c0785eb4f948bab38afb2e50
     internalID: 0
     vertices: []
     indices: 
@@ -311,13 +183,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Switch-Sprites_0: -858182842454899178
-      Switch-Sprites_1: -473086261279802208
-      Switch-Sprites_2: 3016421417374747253
-      Switch-Sprites_3: 2205477762673202644
-      Switch-Sprites_4: -6766557865253523538
-      Switch-Sprites_5: -7803805118995899720
-      Switch-Sprites_6: 5390448927721288841
+      verticlewalll-tile_0: 6369789874073055896
+      verticlewalll-tile_1: 1493421176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
