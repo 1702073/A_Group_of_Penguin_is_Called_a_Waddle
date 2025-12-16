@@ -63,7 +63,7 @@ public class PolarityManager : MonoBehaviour
         }
     }
     
-    void SwitchPolarity()
+    public void SwitchPolarity()
     {
         IsWhitePolarity = !IsWhitePolarity;
         ApplyPolarity();

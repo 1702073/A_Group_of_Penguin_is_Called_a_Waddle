@@ -6,7 +6,7 @@ public class PolarityUI : MonoBehaviour
 {
     
 
-    public GameObject polarizedManager;
+    public GameObject prefab;
     public float cooldownDuration = 3f;
 
     float cooldownTimer = 0f;
@@ -19,12 +19,18 @@ public class PolarityUI : MonoBehaviour
     PolarityManager polarityManager;
     void Start()
     {
-        polarityManager = playerPrefab.GetComponent<Player_Health>();
+        polarityManager = polarityManager.GetComponent<PolarityManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Space) && !onCooldown)
+        {
+            onCooldown = true;
+            cooldownTimer = cooldownDuration;
+            polarityManager.SwitchPolarity();
+        }
         if (onCooldown)
         {
             cooldownTimer -= Time.deltaTime;
