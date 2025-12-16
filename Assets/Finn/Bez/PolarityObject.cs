@@ -11,7 +11,7 @@ public class PolarityObject : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         UpdateColor();
     }
-    
+   
     void Update()
     {
         UpdateColor();

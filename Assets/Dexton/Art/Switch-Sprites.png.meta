@@ -310,7 +310,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Switch-Sprites_0: -858182842454899178
+      Switch-Sprites_1: -473086261279802208
+      Switch-Sprites_2: 3016421417374747253
+      Switch-Sprites_3: 2205477762673202644
+      Switch-Sprites_4: -6766557865253523538
+      Switch-Sprites_5: -7803805118995899720
+      Switch-Sprites_6: 5390448927721288841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
