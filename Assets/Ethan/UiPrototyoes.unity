@@ -992,6 +992,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6488842953824653105, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586870832079202991, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7992868767811623138, guid: d7c66e64240939a45890554d27b7dbb3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.93415487
@@ -1456,6 +1464,7 @@ GameObject:
   - component: {fileID: 1127917012}
   - component: {fileID: 1127917014}
   - component: {fileID: 1127917013}
+  - component: {fileID: 1127917015}
   m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
@@ -1520,6 +1529,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1127917011}
   m_CullTransparentMesh: 1
+--- !u!114 &1127917015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127917011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d1487b869ee68c4ca2dacf4056feefd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Instance: {fileID: 0}
+  polarizedManager: {fileID: 0}
+  cooldownDuration: 3
+  offCooldowm: {fileID: 0}
+  halfCooldown: {fileID: 0}
+  partialCooldown: {fileID: 0}
+  fullCooldown: {fileID: 0}
 --- !u!1001 &1213220720
 PrefabInstance:
   m_ObjectHideFlags: 0
