@@ -9,9 +9,9 @@ public class PolarityManager : MonoBehaviour
     public float cooldownDuration = 3f;
     public Camera mainCamera;
     public RectTransform cooldownBar;
-    
-    float cooldownTimer = 0f;
-    bool onCooldown = false;
+
+    public float cooldownTimer = 0f;
+    public bool onCooldown = false;
     Vector2 originalBarSize;
     
     Color blackBG = Color.black;

@@ -7,10 +7,10 @@ public class PolarityUI : MonoBehaviour
     
 
     public GameObject prefab;
-    public float cooldownDuration = 3f;
+    
 
-    float cooldownTimer = 0f;
-    bool onCooldown = false;
+    
+    
 
     public Image offCooldowm;
     public Image halfCooldown;
@@ -25,47 +25,54 @@ public class PolarityUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !onCooldown)
+        if (Input.GetKeyDown(KeyCode.Space) && !polarityManager.onCooldown)
         {
-            onCooldown = true;
-            cooldownTimer = cooldownDuration;
-            polarityManager.SwitchPolarity();
+            SwitchPolarity();
         }
-        if (onCooldown)
+        setFrame(polarityManager.cooldownTimer);
+    }
+    public void SwitchPolarity()
+    {
+
+        polarityManager.onCooldown = true;
+        polarityManager.cooldownTimer = polarityManager.cooldownDuration;
+        
+    }
+    public void setFrame(float cooldownTimer)
+    {
+        if (cooldownTimer == 3f)
         {
-            cooldownTimer -= Time.deltaTime;
+            offCooldowm.enabled = false;
+            halfCooldown.enabled = false;
+            partialCooldown.enabled = false;
+            fullCooldown.enabled = true;
 
-            if (cooldownTimer == 3f)
-            {
-                offCooldowm.enabled = false;
-                halfCooldown.enabled = false;
-                partialCooldown.enabled = false;
-                fullCooldown.enabled = true;
+        }
 
-            }
+        if (cooldownTimer == 2f)
+        {
+            offCooldowm.enabled = false;
+            halfCooldown.enabled = false;
+            partialCooldown.enabled = true;
+            fullCooldown.enabled = false;
+        }
+        if (cooldownTimer == 1f)
+        {
+            offCooldowm.enabled = false;
+            halfCooldown.enabled = true;
+            partialCooldown.enabled = false;
+            fullCooldown.enabled = false;
+        }
 
-            if (cooldownTimer == 2f)
-            {
-                offCooldowm.enabled = false;
-                halfCooldown.enabled = false;
-                partialCooldown.enabled = true;
-                fullCooldown.enabled = false;
-            }
-            if (cooldownTimer == 1f)
-            {
-                offCooldowm.enabled = false;
-                halfCooldown.enabled = true;
-                partialCooldown.enabled = false;
-                fullCooldown.enabled = false;
-            }
-
-            if (cooldownTimer <= 0f)
-            {
-                offCooldowm.enabled = true;
-                halfCooldown.enabled = false;
-                partialCooldown.enabled = false;
-                fullCooldown.enabled = false;
-            }
+        if (cooldownTimer <= 0f)
+        {
+            polarityManager.onCooldown = false;
+            polarityManager.cooldownTimer = 0f;
+            offCooldowm.enabled = true;
+            halfCooldown.enabled = false;
+            partialCooldown.enabled = false;
+            fullCooldown.enabled = false;
+            polarityManager.onCooldown = false;
         }
     }
 }
