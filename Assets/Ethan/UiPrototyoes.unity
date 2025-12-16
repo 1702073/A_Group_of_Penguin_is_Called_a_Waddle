@@ -937,14 +937,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1224631327}
     m_Modifications:
-    - target: {fileID: 79752776991018197, guid: f255fdf311187ad4c97776bdaeed7072, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 137.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 79752776991018197, guid: f255fdf311187ad4c97776bdaeed7072, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 18.750006
-      objectReference: {fileID: 0}
     - target: {fileID: 6559086675573902194, guid: f255fdf311187ad4c97776bdaeed7072, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2305,6 +2297,54 @@ RectTransform:
   m_AnchoredPosition: {x: 36.410004, y: 162.89737}
   m_SizeDelta: {x: 100, y: 14.2246}
   m_Pivot: {x: 0, y: 0.5}
+--- !u!1 &1993674421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1993674423}
+  - component: {fileID: 1993674422}
+  m_Layer: 0
+  m_Name: PolarityManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1993674422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993674421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6be457376c6bca449e877e6c1529344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsWhitePolarity: 1
+  cooldownDuration: 3
+  mainCamera: {fileID: 1239410145}
+  cooldownBar: {fileID: 0}
+--- !u!4 &1993674423
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993674421}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6464336, y: 0.70662385, z: -0.028859776}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2275782531925098307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2373,3 +2413,4 @@ SceneRoots:
   - {fileID: 707837982}
   - {fileID: 1622615472}
   - {fileID: 2275782531925098307}
+  - {fileID: 1993674423}
