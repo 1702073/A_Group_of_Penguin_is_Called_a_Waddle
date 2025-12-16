@@ -13,7 +13,6 @@ public class Enemy_Health_and_Damage : MonoBehaviour
     {
         enemy_Drops = GetComponent<Enemy_Drops>();
     }
-
     public void Damage(float damageAmount)
     {
         enemyHealth -= damageAmount;

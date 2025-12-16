@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Dizzolve : MonoBehaviour
@@ -10,19 +12,20 @@ public class Dizzolve : MonoBehaviour
     public bool IsTakingDamage = false;
     public float LastHealth;
     public GameObject dissolveVFX;
+    public bool cooldown = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+
         Enemy_Health_and_Damage enemyHealth = GetComponent<Enemy_Health_and_Damage>();
         dizzolveAmount = enemyHealth.enemyHealth / 100;
-        EnemySprite.material.SetFloat("_Dizzolve",dizzolveAmount * 100);
+        EnemySprite.material.SetFloat("_Dizzolve", dizzolveAmount * 100);
 
         PolaritySwitch polarity = GetComponent<PolaritySwitch>();
         if (polarity != null && polarity.Polarity)
@@ -39,11 +42,12 @@ public class Dizzolve : MonoBehaviour
 
 
 
-        if (enemyHealth.enemyHealth != LastHealth)
+        if (cooldown = false && enemyHealth.enemyHealth != LastHealth)
         {
             IsTakingDamage = true;
             LastHealth = enemyHealth.enemyHealth;
             Debug.Log("Taking Damage");
+          
         }
         else
         {
@@ -51,6 +55,7 @@ public class Dizzolve : MonoBehaviour
             Debug.Log("Not Taking Damage FUCK YOU");
         }
 
+      
 
         if (IsTakingDamage)
         {
