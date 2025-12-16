@@ -335,7 +335,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SwitchdEATH-sprites_0: 6083362728040041879
+      SwitchdEATH-sprites_1: 1928686555079540309
+      SwitchdEATH-sprites_2: 5071210835691050093
+      SwitchdEATH-sprites_3: 7933980836478955947
+      SwitchdEATH-sprites_4: -7360209176051449730
+      SwitchdEATH-sprites_5: -1067913646293220044
+      SwitchdEATH-sprites_6: -6294950794952581283
+      SwitchdEATH-sprites_7: 1858306065445205336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
