@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4378382515556276923
 Transform:
   m_ObjectHideFlags: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 7358861527132739155}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: 0.15, z: 0}
+  m_LocalPosition: {x: 0.08, y: 0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -79,7 +79,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7358861527132739155}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -284,8 +284,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ab21079c28cff849bfeaa96390b22d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  istakingDamage: 0
+  lasthealth: 0
   enemyDamage: 1
   enemyHealth: 100
+  deathVFX: {fileID: 7358861527132739155}
 --- !u!114 &7122903138665765083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -319,6 +322,7 @@ MonoBehaviour:
   IsTakingDamage: 0
   LastHealth: 0
   dissolveVFX: {fileID: 7358861527132739155}
+  cooldown: 0
 --- !u!114 &2295660410844801762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,11 +339,13 @@ MonoBehaviour:
   - Item1: {fileID: 3818380555901603, guid: a584c33fa6b9ea849b63cdf20bfb4a1a, type: 3}
     Item2: 1
   - Item1: {fileID: 3818380555901603, guid: d4da779e54cb5f445b76faa0c8169c2c, type: 3}
-    Item2: 1
+    Item2: 3
   - Item1: {fileID: 3818380555901603, guid: 52b815977175ec24597bee6dd2b80b83, type: 3}
-    Item2: 1
+    Item2: 3
   - Item1: {fileID: 0}
-    Item2: 7
+    Item2: 25
+  - Item1: {fileID: 0}
+    Item2: 1
 --- !u!114 &2218908173959021526
 MonoBehaviour:
   m_ObjectHideFlags: 0

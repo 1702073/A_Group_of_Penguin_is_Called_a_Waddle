@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Enemy_Health_and_Damage : MonoBehaviour
 {
+    public bool istakingDamage = false;
+    public float lasthealth;
     public int enemyDamage= 1;
     public float enemyHealth = 3f;
-
+    public GameObject deathVFX;
     Enemy_Drops enemy_Drops;
 
     public void Awake()
@@ -17,10 +19,34 @@ public class Enemy_Health_and_Damage : MonoBehaviour
     {
         enemyHealth -= damageAmount;
         Debug.Log("enemy took damage");
-
+     
         if (enemyHealth <= 0)
         {
             Die();
+        }
+    }
+    public void Update()
+    {
+        if (istakingDamage == false && enemyHealth != lasthealth)
+        {
+            istakingDamage = true;
+            lasthealth = enemyHealth;
+            Debug.Log("Taking Damage");
+        }
+        else
+        {
+            istakingDamage = false;
+            Debug.Log("Not Taking Damage");
+        }
+        
+
+        if (istakingDamage == true)
+        {
+            deathVFX.SetActive(true);
+        }
+        else
+        {
+            deathVFX.SetActive(false);
         }
     }
 
