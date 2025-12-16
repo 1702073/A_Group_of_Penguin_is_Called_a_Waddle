@@ -20,4 +20,11 @@ public class Player_Attack : MonoBehaviour
             }
         }
     }
+
+    public void AttackUp(float damageIncrease)
+    {
+        playerDamage += damageIncrease;
+    }
+
+
 }

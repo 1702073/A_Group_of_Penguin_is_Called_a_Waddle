@@ -32,4 +32,16 @@ public class Player_Movement : MonoBehaviour
             _animator.SetFloat("yMovement", inputVector.y);
         }
     }
+
+    public void SpeedUp(float speedIncrease)
+    {
+        moveSpeed += speedIncrease;
+        if(moveSpeed > 11)
+        {
+            moveSpeed = 11;
+        } 
+    }
+
+
+
 }

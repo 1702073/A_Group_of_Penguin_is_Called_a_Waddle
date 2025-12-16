@@ -214,10 +214,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - Item1: {fileID: 3818380555901603, guid: a584c33fa6b9ea849b63cdf20bfb4a1a, type: 3}
+    Item2: 1
+  - Item1: {fileID: 3818380555901603, guid: d4da779e54cb5f445b76faa0c8169c2c, type: 3}
+    Item2: 1
+  - Item1: {fileID: 3818380555901603, guid: 52b815977175ec24597bee6dd2b80b83, type: 3}
+    Item2: 1
+  - Item1: {fileID: 0}
+    Item2: 7
 --- !u!114 &2218908173959021526
 MonoBehaviour:
   m_ObjectHideFlags: 0

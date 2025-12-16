@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 [RequireComponent(typeof(Enemy_Health_and_Damage), typeof(Enemy_Movement))] // Enemy Scripts
@@ -7,12 +8,18 @@ using UnityEngine;
 public class Enemy_Drops : MonoBehaviour
 { // Put on Enemy
 
-    public List<Item> gameObjects;
+    public List<Tuple<GameObject,int>> gameObjects;
 
     public void Drop_Item()
     {
         Console.WriteLine("Dropping Item");
+        var weights = gameObjects.ConvertAll(tuple => {
+            var item = tuple.Item1;
+            var weight = tuple.Item2;
 
-        Instantiate(gameObjects[UnityEngine.Random.Range(0, gameObjects.Count)], transform.position, Quaternion.identity);
+            return new List<Item>(new Item[weight]).ConvertAll(_ => item);
+        }).SelectMany(x => x).ToList();
+
+        Instantiate(weights[UnityEngine.Random.Range(0, weights.Count)], transform.position, Quaternion.identity);
     }
 }
