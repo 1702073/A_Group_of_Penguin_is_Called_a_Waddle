@@ -40,31 +40,31 @@ public class Dizzolve : MonoBehaviour
 
         }
 
-
-
         if (cooldown = false && enemyHealth.enemyHealth != LastHealth)
         {
             IsTakingDamage = true;
             LastHealth = enemyHealth.enemyHealth;
             Debug.Log("Taking Damage");
-          
+
         }
         else
         {
             IsTakingDamage = false;
-            Debug.Log("Not Taking Damage FUCK YOU");
+            Debug.Log("Not Taking Damage");
         }
 
-      
+
 
         if (IsTakingDamage)
         {
-        dissolveVFX.SetActive(true);
+            dissolveVFX.SetActive(true);
         }
         else
         {
-         dissolveVFX.SetActive(false);
+            dissolveVFX.SetActive(false);
         }
+
+
     }
 
 }

@@ -2313,6 +2313,9 @@ MonoBehaviour:
   cooldownDuration: 3
   mainCamera: {fileID: 467035398}
   cooldownBar: {fileID: 460710691}
+  polaritySwitchVFX: {fileID: 1609198676}
+  cooldownTimer: 0
+  onCooldown: 0
 --- !u!4 &1941455358
 Transform:
   m_ObjectHideFlags: 0

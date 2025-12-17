@@ -9,6 +9,7 @@ public class PolarityManager : MonoBehaviour
     public float cooldownDuration = 3f;
     public Camera mainCamera;
     public RectTransform cooldownBar;
+    public GameObject polaritySwitchVFX;
 
     public float cooldownTimer = 0f;
     public bool onCooldown = false;
