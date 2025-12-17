@@ -1,0 +1,78 @@
+using Unity.VisualScripting;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PolarityUI : MonoBehaviour
+{
+    
+
+    public GameObject prefab;
+    
+
+    
+    
+
+    public Image offCooldowm;
+    public Image halfCooldown;
+    public Image partialCooldown;
+    public Image fullCooldown;
+    PolarityManager polarityManager;
+    void Start()
+    {
+        polarityManager = polarityManager.GetComponent<PolarityManager>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && !polarityManager.onCooldown)
+        {
+            SwitchPolarity();
+        }
+        setFrame(polarityManager.cooldownTimer);
+    }
+    public void SwitchPolarity()
+    {
+
+        polarityManager.onCooldown = true;
+        polarityManager.cooldownTimer = polarityManager.cooldownDuration;
+        
+    }
+    public void setFrame(float cooldownTimer)
+    {
+        if (cooldownTimer == 3f)
+        {
+            offCooldowm.enabled = false;
+            halfCooldown.enabled = false;
+            partialCooldown.enabled = false;
+            fullCooldown.enabled = true;
+
+        }
+
+        if (cooldownTimer == 2f)
+        {
+            offCooldowm.enabled = false;
+            halfCooldown.enabled = false;
+            partialCooldown.enabled = true;
+            fullCooldown.enabled = false;
+        }
+        if (cooldownTimer == 1f)
+        {
+            offCooldowm.enabled = false;
+            halfCooldown.enabled = true;
+            partialCooldown.enabled = false;
+            fullCooldown.enabled = false;
+        }
+
+        if (cooldownTimer <= 0f)
+        {
+            polarityManager.onCooldown = false;
+            polarityManager.cooldownTimer = 0f;
+            offCooldowm.enabled = true;
+            halfCooldown.enabled = false;
+            partialCooldown.enabled = false;
+            fullCooldown.enabled = false;
+            polarityManager.onCooldown = false;
+        }
+    }
+}

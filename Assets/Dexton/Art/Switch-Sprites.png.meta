@@ -1,10 +1,28 @@
 fileFormatVersion: 2
-guid: c16c71714f70d2446b9a60cb6beea8b4
+guid: c7677aec0599efe4da8783a89efdba41
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 431512648808933374
-    second: dude_0
+      213: -858182842454899178
+    second: Switch-Sprites_0
+  - first:
+      213: -473086261279802208
+    second: Switch-Sprites_1
+  - first:
+      213: 3016421417374747253
+    second: Switch-Sprites_2
+  - first:
+      213: 2205477762673202644
+    second: Switch-Sprites_3
+  - first:
+      213: -6766557865253523538
+    second: Switch-Sprites_4
+  - first:
+      213: -7803805118995899720
+    second: Switch-Sprites_5
+  - first:
+      213: 5390448927721288841
+    second: Switch-Sprites_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -126,13 +144,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dude_0
+      name: Switch-Sprites_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 100
-        width: 100
-        height: 100
+        x: 16
+        y: 306
+        width: 272
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,30 +159,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef72854c77a0df500800000000000000
-      internalID: 431512648808933374
+      spriteID: 616042b604f1714f0800000000000000
+      internalID: -858182842454899178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dude_1
+      name: Switch-Sprites_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 316
+        y: 306
+        width: 272
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 47f9a115f62df2244bfe2912be20fb4b
-      internalID: 777682324
+      spriteID: 0acbc484d824f69f0800000000000000
+      internalID: -473086261279802208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch-Sprites_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 306
+        width: 272
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a80832c4b7cd920800000000000000
+      internalID: 3016421417374747253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch-Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 306
+        width: 272
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5d82c075e6b9e10800000000000000
+      internalID: 2205477762673202644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch-Sprites_4
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 306
+        width: 272
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf2079e87b5812a0800000000000000
+      internalID: -6766557865253523538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch-Sprites_5
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 306
+        width: 272
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8badfd1379053b390800000000000000
+      internalID: -7803805118995899720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Switch-Sprites_6
+      rect:
+        serializedVersion: 2
+        x: 1816
+        y: 306
+        width: 272
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98476bc6db8beca40800000000000000
+      internalID: 5390448927721288841
       vertices: []
       indices: 
       edges: []
@@ -173,7 +301,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -183,8 +311,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dude_0: 431512648808933374
-      dude_1: 777682324
+      Switch-Sprites_0: -858182842454899178
+      Switch-Sprites_1: -473086261279802208
+      Switch-Sprites_2: 3016421417374747253
+      Switch-Sprites_3: 2205477762673202644
+      Switch-Sprites_4: -6766557865253523538
+      Switch-Sprites_5: -7803805118995899720
+      Switch-Sprites_6: 5390448927721288841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

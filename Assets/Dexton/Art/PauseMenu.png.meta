@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c16c71714f70d2446b9a60cb6beea8b4
+guid: 6bfa7f89b29e7f04db9fdda276ceb175
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 431512648808933374
-    second: dude_0
+      213: -1869492064128092055
+    second: PauseMenu_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dude_0
+      name: PauseMenu_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 100
-        width: 100
-        height: 100
+        y: 0
+        width: 640
+        height: 480
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,30 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef72854c77a0df500800000000000000
-      internalID: 431512648808933374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dude_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47f9a115f62df2244bfe2912be20fb4b
-      internalID: 777682324
+      spriteID: 968bb376fda3e06e0800000000000000
+      internalID: -1869492064128092055
       vertices: []
       indices: 
       edges: []
@@ -173,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -183,8 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dude_0: 431512648808933374
-      dude_1: 777682324
+      PauseMenu_0: -1869492064128092055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
