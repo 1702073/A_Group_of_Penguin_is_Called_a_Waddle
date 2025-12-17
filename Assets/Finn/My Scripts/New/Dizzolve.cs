@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -6,13 +7,15 @@ public class Dizzolve : MonoBehaviour
 {
     public SpriteRenderer EnemySprite;
     public float dizzolveAmount = 0;
+    public float dizzolveAmountb = 0;
 
-    public Color black = Color.black;
-    public Color white = Color.white;
     public bool IsTakingDamage = false;
     public float LastHealth;
     public GameObject dissolveVFX;
     public bool cooldown = false;
+    public bool switched = false;
+    public bool CD = false;
+    public Range range;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,20 +26,56 @@ public class Dizzolve : MonoBehaviour
     void Update()
     {
 
+        if (transform.parent != null)
+        {
+            // Use CompareTag for performance optimization over the == operator
+            if (transform.parent.CompareTag("white"))
+            {
+                Debug.Log("The immediate parent has the tag: white");
+                switched = false;
+            }
+            else
+            {
+                Debug.Log("The immediate parent does not have that tag.");
+            }
+            // Use CompareTag for performance optimization over the == operator
+            if (transform.parent.CompareTag("black"))
+            {
+                Debug.Log("The immediate parent has the tag: black");
+                switched = true;
+            }
+            else
+            {
+                Debug.Log("The immediate parent does not have that tag.");
+            }
+        }
+        else
+        {
+            Debug.Log("The GameObject has no parent.");
+        }
+
         Enemy_Health_and_Damage enemyHealth = GetComponent<Enemy_Health_and_Damage>();
         dizzolveAmount = enemyHealth.enemyHealth / 100;
-        EnemySprite.material.SetFloat("_Dizzolve", dizzolveAmount * 100);
+       
+
+        if (switched == true)
+        {
+            EnemySprite.material.SetFloat("_Dizzolve", dizzolveAmount * 100);
+        }
+        else
+        {
+            EnemySprite.material.SetFloat("_Dizzolve", dizzolveAmount * 1 -1 *100);
+        }
+        
 
         PolaritySwitch polarity = GetComponent<PolaritySwitch>();
         if (polarity != null && polarity.Polarity)
         {
-            EnemySprite.material.SetColor("_Color", white);
-            EnemySprite.material.SetColor("_EdgeColor", black);
+            switched = true;
         }
         else if (polarity != null)
         {
-            EnemySprite.material.SetColor("_Color", black);
-            EnemySprite.material.SetColor("_EdgeColor", white);
+            switched = false;
 
         }
 
@@ -55,15 +94,17 @@ public class Dizzolve : MonoBehaviour
 
 
 
-        if (IsTakingDamage)
+        if (CD = true && IsTakingDamage == true)
         {
             dissolveVFX.SetActive(true);
+            CD = false;
         }
-        else
+        else if (IsTakingDamage == false && CD == false)
         {
             dissolveVFX.SetActive(false);
+            CD = true;
         }
-
+    
 
     }
 
