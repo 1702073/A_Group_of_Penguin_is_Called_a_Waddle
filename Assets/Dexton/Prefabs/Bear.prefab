@@ -131,8 +131,9 @@ GameObject:
   - component: {fileID: 6452394099668963309}
   - component: {fileID: 2295660410844801762}
   - component: {fileID: 2218908173959021526}
+  - component: {fileID: 4371883420581873243}
   m_Layer: 0
-  m_Name: Creepy Spooky Enemy
+  m_Name: Bear
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -198,10 +199,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -180860272, guid: 882c32b2e4522b34a94d035c126932e9, type: 3}
   m_Color: {r: 1, g: 0.31209642, b: 0, a: 1}
   m_FlipX: 0
-  m_FlipY: 1
+  m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
@@ -361,3 +362,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whitePole: {fileID: 3369297925713050892, guid: 4a52b10a5ecb0a947b28ba0f123698f0, type: 3}
   blackPole: {fileID: 8183231493481153218, guid: 49414bc222ff884419beffed96b8857c, type: 3}
+--- !u!95 &4371883420581873243
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324078193745592725}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f765843697ec1474e9144825f931d5ed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
