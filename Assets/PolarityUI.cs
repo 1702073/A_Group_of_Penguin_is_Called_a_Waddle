@@ -7,10 +7,6 @@ public class PolarityUI : MonoBehaviour
     
 
     public GameObject prefab;
-    
-
-    
-    
 
     public Image offCooldowm;
     public Image halfCooldown;
@@ -27,17 +23,11 @@ public class PolarityUI : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && !polarityManager.onCooldown)
         {
-            SwitchPolarity();
+            polarityManager.SwitchPolarity();
         }
         setFrame(polarityManager.cooldownTimer);
     }
-    public void SwitchPolarity()
-    {
-
-        polarityManager.onCooldown = true;
-        polarityManager.cooldownTimer = polarityManager.cooldownDuration;
-        
-    }
+   
     public void setFrame(float cooldownTimer)
     {
         if (cooldownTimer == 3f)

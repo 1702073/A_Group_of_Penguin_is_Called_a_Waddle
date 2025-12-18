@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9c09c5e553dc85b4991d4ab34bf8238b
+guid: ff85a669446099e479764ad167499725
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8169544068308525031
-    second: Template-Button 1_0
+      213: 8588579921759015379
+    second: switchcandle-out_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Template-Button 1_0
+      name: switchcandle-out_0
       rect:
         serializedVersion: 2
-        x: 65
-        y: 329
-        width: 869
-        height: 342
+        x: 16
+        y: 12
+        width: 272
+        height: 370
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7efdd68cb0d006170800000000000000
-      internalID: 8169544068308525031
+      spriteID: 3d19f714fe3c03770800000000000000
+      internalID: 8588579921759015379
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Template-Button 1_0: 8169544068308525031
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
