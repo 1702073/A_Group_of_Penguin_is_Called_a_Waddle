@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using static System.TimeZoneInfo;
 
@@ -8,9 +9,18 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
     public AudioClip buttonSound;
+    public AudioMixerGroup mixer;
 
     public float transitionTime = 1f;
     public Animator transition;
+    
+
+    public void Awake()
+    {
+
+
+       
+    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
