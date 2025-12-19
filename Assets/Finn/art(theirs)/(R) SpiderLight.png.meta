@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 97f0d0769c9908543b4cda3c8f2319a9
+guid: 98c0e6726eb290f448d9c64e57297723
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5643348949490821882
-    second: Animate_0
+      213: 6124317924655783557
+    second: (R) SpiderLight_0
+  - first:
+      213: 7747494402522655983
+    second: (R) SpiderLight_1
+  - first:
+      213: -5916600692990841231
+    second: (R) SpiderLight_2
+  - first:
+      213: -797935840052965182
+    second: (R) SpiderLight_3
+  - first:
+      213: 1735503177007559471
+    second: (R) SpiderLight_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Animate_0
+      name: (R) SpiderLight_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 415
-        height: 257
+        x: 16
+        y: 115
+        width: 900
+        height: 173
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +153,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: afa69f548f3315e40800000000000000
-      internalID: 5643348949490821882
+      spriteID: 58e5aa654b2fdf450800000000000000
+      internalID: 6124317924655783557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) SpiderLight_1
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 112
+        width: 762
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feca0b17c11a48b60800000000000000
+      internalID: 7747494402522655983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) SpiderLight_2
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 116
+        width: 742
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e6378640304eda0800000000000000
+      internalID: -5916600692990841231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) SpiderLight_3
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 118
+        width: 569
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c01714c4992de4f0800000000000000
+      internalID: -797935840052965182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) SpiderLight_4
+      rect:
+        serializedVersion: 2
+        x: 4215
+        y: 118
+        width: 569
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23f814c1feb51810800000000000000
+      internalID: 1735503177007559471
       vertices: []
       indices: 
       edges: []
@@ -160,8 +260,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Animate_0: 5643348949490821882
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
