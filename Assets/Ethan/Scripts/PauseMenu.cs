@@ -13,13 +13,13 @@ public class PauseMenu : MonoBehaviour
 
     public float transitionTime = 1f;
     public Animator transition;
-    private AudioSource audioSource;
+    
 
     public void Awake()
     {
-        audioSource = gameObject.AddComponent<AudioSource>();
 
-        audioSource.outputAudioMixerGroup = mixer;
+
+       
     }
     private void Update()
     {

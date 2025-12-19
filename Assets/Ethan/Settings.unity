@@ -1502,6 +1502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 368144408}
   buttonSound: {fileID: 8300000, guid: 4c541be7d370dfb419528a9cf8bc18cd, type: 3}
+  mixer: {fileID: -3728700696144076750, guid: c0ff083b5f728034f8f12e33e60a4ff7, type: 2}
   transitionTime: 1
   transition: {fileID: 0}
 --- !u!1 &931159360

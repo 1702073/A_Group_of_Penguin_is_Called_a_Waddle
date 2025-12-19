@@ -260,7 +260,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      (L) SpiderDark_0: -2407908857478432446
+      (L) SpiderDark_1: 5066026851902026324
+      (L) SpiderDark_2: -7558824390690249638
+      (L) SpiderDark_3: -5940919423250947683
+      (L) SpiderDark_4: 8926273508194408924
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
