@@ -9,6 +9,8 @@ TagManager:
   - notplayer
   - white
   - black
+  - blackc
+  - whitec
   layers:
   - Default
   - TransparentFX

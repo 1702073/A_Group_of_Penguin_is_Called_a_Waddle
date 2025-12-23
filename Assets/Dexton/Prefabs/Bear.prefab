@@ -254,6 +254,7 @@ MonoBehaviour:
   enemyDamage: 1
   enemyHealth: 100
   deathVFX: {fileID: 7358861527132739155}
+  damageVFXDuration: 0.5
 --- !u!114 &7122903138665765083
 MonoBehaviour:
   m_ObjectHideFlags: 0
