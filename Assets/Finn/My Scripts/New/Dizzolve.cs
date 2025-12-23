@@ -64,7 +64,7 @@ public class Dizzolve : MonoBehaviour
         }
         else
         {
-            EnemySprite.material.SetFloat("_Dizzolve", dizzolveAmount * 1 -1 *100);
+            EnemySprite.material.SetFloat("_Dizzolve", dizzolveAmount * 100);
         }
         
 

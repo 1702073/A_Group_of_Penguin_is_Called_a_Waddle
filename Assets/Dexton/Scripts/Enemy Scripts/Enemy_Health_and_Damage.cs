@@ -9,6 +9,8 @@ public class Enemy_Health_and_Damage : MonoBehaviour
     public int enemyDamage= 1;
     public float enemyHealth = 3f;
     public GameObject deathVFX;
+    public float damageVFXDuration = 0.5f;
+    float damageTimer = 0f;
     Enemy_Drops enemy_Drops;
 
     public void Awake()
@@ -19,6 +21,9 @@ public class Enemy_Health_and_Damage : MonoBehaviour
     {
         enemyHealth -= damageAmount;
         Debug.Log("enemy took damage");
+        istakingDamage = true;
+        damageTimer = damageVFXDuration;
+        if (deathVFX != null) deathVFX.SetActive(true);
      
         if (enemyHealth <= 0)
         {
@@ -27,26 +32,14 @@ public class Enemy_Health_and_Damage : MonoBehaviour
     }
     public void Update()
     {
-        if (istakingDamage == false && enemyHealth != lasthealth)
+        if (istakingDamage)
         {
-            istakingDamage = true;
-            lasthealth = enemyHealth;
-            Debug.Log("Taking Damage");
-        }
-        else
-        {
-            istakingDamage = false;
-            Debug.Log("Not Taking Damage");
-        }
-        
-
-        if (istakingDamage == true)
-        {
-            deathVFX.SetActive(true);
-        }
-        else
-        {
-            deathVFX.SetActive(false);
+            damageTimer -= Time.deltaTime;
+            if (damageTimer <= 0f)
+            {
+                istakingDamage = false;
+                if (deathVFX != null) deathVFX.SetActive(false);
+            }
         }
     }
 
