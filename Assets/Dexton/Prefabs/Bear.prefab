@@ -267,8 +267,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c66c3b4de16598488881bc6aa5db3d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
   player: {fileID: 5394743801359527132, guid: 3e73a035d2ea9284bb72a92d9118e2fd, type: 3}
+  moveSpeed: 0.5
 --- !u!114 &6452394099668963309
 MonoBehaviour:
   m_ObjectHideFlags: 0
