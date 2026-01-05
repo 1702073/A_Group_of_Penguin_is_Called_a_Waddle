@@ -6,9 +6,11 @@ using UnityEngine;
 public class Enemy_Movement : MonoBehaviour
 {
     private Rigidbody2D _rb;
+    private Animator _animator;
+    public GameObject player;
+
     private Vector2 _whereToGo;
     public float moveSpeed = 5f;
-    public GameObject player;
 
     private void Awake()
     {
@@ -18,17 +20,26 @@ public class Enemy_Movement : MonoBehaviour
 
     void Update()
     { 
-        if (player == null)
-        {
-            player = GameObject.FindWithTag("Player");
-            return;
-        }
-
         //determine where to go and move towards player
         _whereToGo = (player.transform.position - transform.position).normalized;
         
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
         
         _rb.linearVelocity = moveSpeed * _whereToGo;
+
+
+
+
+        if (_whereToGo != Vector2.zero)
+        {
+            _animator.SetFloat("xMovement", _whereToGo.x);
+        }
+
+
+        if (player == null)
+        {
+            player = GameObject.FindWithTag("Player");
+            return;
+        }
     }
 }
