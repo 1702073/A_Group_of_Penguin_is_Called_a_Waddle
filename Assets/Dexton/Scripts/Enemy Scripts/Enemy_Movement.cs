@@ -15,6 +15,7 @@ public class Enemy_Movement : MonoBehaviour
     private void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
         player = GameObject.FindWithTag("Player");
     }
 
