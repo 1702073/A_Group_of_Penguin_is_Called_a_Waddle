@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 5394743801359527132, guid: 3e73a035d2ea9284bb72a92d9118e2fd, type: 3}
-  moveSpeed: 0.5
+  moveSpeed: 1.5
 --- !u!114 &6452394099668963309
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -26,11 +26,11 @@ public class Player_Movement : MonoBehaviour
         Vector2 inputVector = ctx.ReadValue<Vector2>();
         _moveAmount = inputVector * moveSpeed;
 
-        if (_moveAmount != Vector2.zero)
-        {
+        //if (_moveAmount != Vector2.zero)
+        //{
             _animator.SetFloat("xMovement", inputVector.x);
             _animator.SetFloat("yMovement", inputVector.y);
-        }
+        //}
     }
 
     public void SpeedUp(float speedIncrease)
