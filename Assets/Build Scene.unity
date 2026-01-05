@@ -610,7 +610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Health: You got 3 hitpoints with 2 lives'
+  m_text: 'Health: You have 3 hitpoints with 2 lives'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0ab3b0e1c4ceae44dbf0029778270a44, type: 2}
   m_sharedMaterial: {fileID: 2387072300794524405, guid: 0ab3b0e1c4ceae44dbf0029778270a44, type: 2}
