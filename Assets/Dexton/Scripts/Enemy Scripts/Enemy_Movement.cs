@@ -24,7 +24,7 @@ public class Enemy_Movement : MonoBehaviour
         //determine where to go and move towards player
         _whereToGo = (player.transform.position - transform.position).normalized;
         
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
+        //transform.position = Vector2.MoveTowards(transform.position, player.transform.position, moveSpeed * Time.deltaTime);
         
         _rb.linearVelocity = moveSpeed * _whereToGo;
 

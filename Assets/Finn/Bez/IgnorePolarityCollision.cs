@@ -14,10 +14,10 @@ public class IgnorePolarityCollision : MonoBehaviour
     {
         if (myCollider == null) return;
         
-        GameObject[] allObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
-        foreach (GameObject obj in allObjects)
+        var allObjects = FindObjectsByType<Transform>(FindObjectsSortMode.None);
+        foreach (var obj in allObjects)
         {
-            if (obj.CompareTag("white") || obj.CompareTag("black"))
+            if (obj.CompareTag("whitec") || obj.CompareTag("blackc"))
             {
                 Collider2D otherCollider = obj.GetComponent<Collider2D>();
                 if (otherCollider != null)
