@@ -6,11 +6,11 @@ public class JOJO :MonoBehaviour
     public void SavePlayer(Player_Movement player_Movement, Player_Health player_Health)
     {
         SaveSystem.SavePlayer(GetComponent<Player_Health>(), GetComponent<Player_Movement>());
-        Debug.Log("AAAAAAAAA");
+        //Debug.Log("AAAAAAAAA");
     }
     public void LoadPlayer(Player_Movement player_movement, Player_Health player_Health)
     {
-        Debug.Log("AAAAAAAAAAA but backwards");
+        //Debug.Log("AAAAAAAAAAA but backwards");
 
         PlayerData data = SaveSystem.LoadPlayer();
         player_Health.playerHealth = data.playerHealth;

@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 0bff22b26aa82f74e8d696788188a7e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3584409890467501305
+    second: (R) Deer_0
+  - first:
+      213: -9219825574316142375
+    second: (R) Deer_1
+  - first:
+      213: -8944966586412748352
+    second: (R) Deer_2
+  - first:
+      213: -1734654165633745333
+    second: (R) Deer_3
+  - first:
+      213: -379959842365765656
+    second: (R) Deer_4
+  - first:
+      213: 8575946446759618317
+    second: (R) Deer_5
+  - first:
+      213: -1845639899489763180
+    second: (R) Deer_6
+  - first:
+      213: 3303295133063957360
+    second: (R) Deer_7
+  - first:
+      213: -3921877339585905865
+    second: (R) Deer_8
+  - first:
+      213: 1202564327067817541
+    second: (R) Deer_9
+  - first:
+      213: 2239269413014466407
+    second: (R) Deer_10
+  - first:
+      213: 2148541995190495357
+    second: (R) Deer_11
+  - first:
+      213: -6823355392656704611
+    second: (R) Deer_12
+  - first:
+      213: 1682712456806759594
+    second: (R) Deer_13
+  - first:
+      213: -1704494904754806592
+    second: (R) Deer_14
+  - first:
+      213: 6157338912581097014
+    second: (R) Deer_15
+  - first:
+      213: 1613548107654351244
+    second: (R) Deer_16
+  - first:
+      213: 8891348777372934939
+    second: (R) Deer_17
+  - first:
+      213: 2817696995909682136
+    second: (R) Deer_18
+  - first:
+      213: 1468161253117031525
+    second: (R) Deer_19
+  - first:
+      213: 3094464437410810130
+    second: (R) Deer_20
+  - first:
+      213: -1843849883134919047
+    second: (R) Deer_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: (R) Deer_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 878
+        width: 332
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ba945123e914ec0800000000000000
+      internalID: -3584409890467501305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 773
+        width: 587
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d013d72d799c0080800000000000000
+      internalID: -9219825574316142375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1037
+        width: 262
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1312938481dd380800000000000000
+      internalID: -8944966586412748352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_3
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 773
+        width: 662
+        height: 525
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ebf391a354de7e0800000000000000
+      internalID: -1734654165633745333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_4
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1033
+        width: 271
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e700e6598c1abaf0800000000000000
+      internalID: -379959842365765656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_5
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 882
+        width: 191
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0761e32bd1e30770800000000000000
+      internalID: 8575946446759618317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_6
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 774
+        width: 399
+        height: 533
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49000af3a48f266e0800000000000000
+      internalID: -1845639899489763180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_7
+      rect:
+        serializedVersion: 2
+        x: 2628
+        y: 1039
+        width: 276
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07bcd820c69a7dd20800000000000000
+      internalID: 3303295133063957360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_8
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 869
+        width: 204
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73bf351b651b299c0800000000000000
+      internalID: -3921877339585905865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_9
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 773
+        width: 647
+        height: 632
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5461f6e42ed50b010800000000000000
+      internalID: 1202564327067817541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 98
+        width: 680
+        height: 556
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fef1fbaab731f10800000000000000
+      internalID: 2239269413014466407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 12
+        width: 134
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78a658af8721dd10800000000000000
+      internalID: 2148541995190495357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_12
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 60
+        width: 102
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b737c0c629e41a0800000000000000
+      internalID: -6823355392656704611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_13
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 26
+        width: 153
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac771760123a5710800000000000000
+      internalID: 1682712456806759594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_14
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 84
+        width: 440
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c060a83aea6858e0800000000000000
+      internalID: -1704494904754806592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_15
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 167
+        width: 293
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63616163e13437550800000000000000
+      internalID: 6157338912581097014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_16
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 33
+        width: 205
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89cdb87479746610800000000000000
+      internalID: 1613548107654351244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_17
+      rect:
+        serializedVersion: 2
+        x: 2319
+        y: 31
+        width: 601
+        height: 689
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13ea69ca9a646b70800000000000000
+      internalID: 8891348777372934939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_18
+      rect:
+        serializedVersion: 2
+        x: 3130
+        y: 84
+        width: 265
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3c1ed2d787a1720800000000000000
+      internalID: 2817696995909682136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_19
+      rect:
+        serializedVersion: 2
+        x: 3219
+        y: 31
+        width: 63
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564780d81e4ff5410800000000000000
+      internalID: 1468161253117031525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_20
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 113
+        width: 647
+        height: 565
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21943f9b20fb1fa20800000000000000
+      internalID: 3094464437410810130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Deer_21
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 32
+        width: 52
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ef898ec445966e0800000000000000
+      internalID: -1843849883134919047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      (R) Deer_0: -3584409890467501305
+      (R) Deer_1: -9219825574316142375
+      (R) Deer_10: 2239269413014466407
+      (R) Deer_11: 2148541995190495357
+      (R) Deer_12: -6823355392656704611
+      (R) Deer_13: 1682712456806759594
+      (R) Deer_14: -1704494904754806592
+      (R) Deer_15: 6157338912581097014
+      (R) Deer_16: 1613548107654351244
+      (R) Deer_17: 8891348777372934939
+      (R) Deer_18: 2817696995909682136
+      (R) Deer_19: 1468161253117031525
+      (R) Deer_2: -8944966586412748352
+      (R) Deer_20: 3094464437410810130
+      (R) Deer_21: -1843849883134919047
+      (R) Deer_3: -1734654165633745333
+      (R) Deer_4: -379959842365765656
+      (R) Deer_5: 8575946446759618317
+      (R) Deer_6: -1845639899489763180
+      (R) Deer_7: 3303295133063957360
+      (R) Deer_8: -3921877339585905865
+      (R) Deer_9: 1202564327067817541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

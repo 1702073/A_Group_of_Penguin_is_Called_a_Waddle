@@ -540,6 +540,10 @@ PrefabInstance:
       value: Audio
       objectReference: {fileID: 0}
     - target: {fileID: 2340193980954275134, guid: fc7f79bf9b6f0d043b8b719fd5675cb8, type: 3}
+      propertyPath: mixer
+      value: 
+      objectReference: {fileID: -3728700696144076750, guid: c0ff083b5f728034f8f12e33e60a4ff7, type: 2}
+    - target: {fileID: 2340193980954275134, guid: fc7f79bf9b6f0d043b8b719fd5675cb8, type: 3}
       propertyPath: loopClip
       value: 
       objectReference: {fileID: 8300000, guid: 6f20a5b7e06d6e44f86f479c35bb29a7, type: 3}

@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: bab96f320c748b3449c00ddf104f163e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7304869802168430660
+    second: (R) Bear_0
+  - first:
+      213: -5894312260211659050
+    second: (R) Bear_1
+  - first:
+      213: 1789556227148332682
+    second: (R) Bear_2
+  - first:
+      213: 3461672655534260574
+    second: (R) Bear_3
+  - first:
+      213: -6977205764302059972
+    second: (R) Bear_4
+  - first:
+      213: -440562782738907863
+    second: (R) Bear_5
+  - first:
+      213: 6121062284508524128
+    second: (R) Bear_6
+  - first:
+      213: 1648144653247891966
+    second: (R) Bear_7
+  - first:
+      213: 3285138486945930496
+    second: (R) Bear_8
+  - first:
+      213: -4161278451156990855
+    second: (R) Bear_9
+  - first:
+      213: -1258509022612729522
+    second: (R) Bear_10
+  - first:
+      213: 4351427701052172830
+    second: (R) Bear_11
+  - first:
+      213: -1551885665694950379
+    second: (R) Bear_12
+  - first:
+      213: 3928080462430457604
+    second: (R) Bear_13
+  - first:
+      213: 1855906381846310222
+    second: (R) Bear_14
+  - first:
+      213: 4562330409537401856
+    second: (R) Bear_15
+  - first:
+      213: -2241646487946266715
+    second: (R) Bear_16
+  - first:
+      213: 6238377717282787489
+    second: (R) Bear_17
+  - first:
+      213: -7450648039434679824
+    second: (R) Bear_18
+  - first:
+      213: -1970861791193198758
+    second: (R) Bear_19
+  - first:
+      213: 8639793722338695567
+    second: (R) Bear_20
+  - first:
+      213: 985199866403237855
+    second: (R) Bear_21
+  - first:
+      213: 8428932642148920617
+    second: (R) Bear_22
+  - first:
+      213: -8464123836055784629
+    second: (R) Bear_23
+  - first:
+      213: -2630264688221877673
+    second: (R) Bear_24
+  - first:
+      213: 6413883611700459111
+    second: (R) Bear_25
+  - first:
+      213: 8756733410040631510
+    second: (R) Bear_26
+  - first:
+      213: -1578182638782207445
+    second: (R) Bear_27
+  - first:
+      213: 9122725636781823241
+    second: (R) Bear_28
+  - first:
+      213: -8034311377265240094
+    second: (R) Bear_29
+  - first:
+      213: 6211320389884379668
+    second: (R) Bear_30
+  - first:
+      213: 1192393401515751040
+    second: (R) Bear_31
+  - first:
+      213: 582854946760422370
+    second: (R) Bear_32
+  - first:
+      213: -5299188608021738740
+    second: (R) Bear_33
+  - first:
+      213: -2238580292252772875
+    second: (R) Bear_34
+  - first:
+      213: -8483725678105664201
+    second: (R) Bear_35
+  - first:
+      213: -3300929332583777709
+    second: (R) Bear_36
+  - first:
+      213: -1877202230769326681
+    second: (R) Bear_37
+  - first:
+      213: -5655092539357621151
+    second: (R) Bear_38
+  - first:
+      213: -2573715583262505637
+    second: (R) Bear_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: (R) Bear_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cfd5ffb0482954f9465a47013d7435
+      internalID: 839692073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 550
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbb7836733da8d4ab3866757222350f
+      internalID: -81861472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 550
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b37515dc2cfe340a23311167b9d956
+      internalID: -1865852423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 550
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad11e8f92632ab4e95f8d2719e8a5a5
+      internalID: 1674840055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96070d648ab6124e82131ab69f321bc
+      internalID: 491558091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997fa7a5a2e9e0d44a8143198638cba4
+      internalID: 519186483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_6
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5714ebb5cd082874b86d6d7feda2affc
+      internalID: 1629648388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: (R) Bear_7
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20305cf874dffe40815c060ba74cd26
+      internalID: -477967932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 875ee7c51c166a84593fd77058207d2a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      (R) Bear_0: 839692073
+      (R) Bear_1: -81861472
+      (R) Bear_2: -1865852423
+      (R) Bear_3: 1674840055
+      (R) Bear_4: 491558091
+      (R) Bear_5: 519186483
+      (R) Bear_6: 1629648388
+      (R) Bear_7: -477967932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
