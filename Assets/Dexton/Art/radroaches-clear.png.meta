@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: a32ba08bdbfb84c4ea646c0cc26bb17e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6699902094743588681
+    second: radroaches-clear_0
+  - first:
+      213: 8204306125056871652
+    second: radroaches-clear_1
+  - first:
+      213: 7082658104078797953
+    second: radroaches-clear_2
+  - first:
+      213: -463403970584490162
+    second: radroaches-clear_3
+  - first:
+      213: -7931767633156476116
+    second: radroaches-clear_4
+  - first:
+      213: 5977168274732927506
+    second: radroaches-clear_5
+  - first:
+      213: 8883085009336617244
+    second: radroaches-clear_6
+  - first:
+      213: 4831755962037152612
+    second: radroaches-clear_7
+  - first:
+      213: -256427220328325873
+    second: radroaches-clear_8
+  - first:
+      213: 2687408675097157373
+    second: radroaches-clear_9
+  - first:
+      213: 4987283056448310293
+    second: radroaches-clear_10
+  - first:
+      213: 2984309307192545102
+    second: radroaches-clear_11
+  - first:
+      213: -3257092988235184620
+    second: radroaches-clear_12
+  - first:
+      213: -4127694144242537573
+    second: radroaches-clear_13
+  - first:
+      213: -4414964168710821718
+    second: radroaches-clear_14
+  - first:
+      213: 2358835109334471581
+    second: radroaches-clear_15
+  - first:
+      213: -6639207077202670089
+    second: radroaches-clear_16
+  - first:
+      213: 8666219701368129816
+    second: radroaches-clear_17
+  - first:
+      213: 4795926748601414044
+    second: radroaches-clear_18
+  - first:
+      213: 3409674212334670650
+    second: radroaches-clear_19
+  - first:
+      213: 7663889810698016216
+    second: radroaches-clear_20
+  - first:
+      213: -5595304133039498904
+    second: radroaches-clear_21
+  - first:
+      213: 7048742772580587332
+    second: radroaches-clear_22
+  - first:
+      213: -4845411441118596686
+    second: radroaches-clear_23
+  - first:
+      213: 6934008432747723756
+    second: radroaches-clear_24
+  - first:
+      213: 5555521591528877456
+    second: radroaches-clear_25
+  - first:
+      213: -5815250009090133214
+    second: radroaches-clear_26
+  - first:
+      213: 2195629530980748912
+    second: radroaches-clear_27
+  - first:
+      213: 8935117205473386010
+    second: radroaches-clear_28
+  - first:
+      213: 2649194886482361283
+    second: radroaches-clear_29
+  - first:
+      213: -2567666584709416957
+    second: radroaches-clear_30
+  - first:
+      213: -1037738824214261805
+    second: radroaches-clear_31
+  - first:
+      213: -2489079682737970247
+    second: radroaches-clear_32
+  - first:
+      213: -7954585580730758899
+    second: radroaches-clear_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: radroaches-clear_0
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 2018
+        width: 97
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f46132575dafc50800000000000000
+      internalID: 6699902094743588681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_1
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 843
+        width: 415
+        height: 1202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec8394d3fc8bd170800000000000000
+      internalID: 8204306125056871652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1423
+        width: 211
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c88272508aa4260800000000000000
+      internalID: 7082658104078797953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1024
+        width: 373
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f4ec14b88a199f0800000000000000
+      internalID: -463403970584490162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 1182
+        width: 421
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2374c8ac53bce190800000000000000
+      internalID: -7931767633156476116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_5
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1469
+        width: 189
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ac032a0ea23f250800000000000000
+      internalID: 5977168274732927506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1469
+        width: 120
+        height: 455
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c194b1b50ce074b70800000000000000
+      internalID: 8883085009336617244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_7
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1181
+        width: 370
+        height: 825
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ba99e9278dd0340800000000000000
+      internalID: 4831755962037152612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_8
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1154
+        width: 510
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dd69d3dccf07cf0800000000000000
+      internalID: -256427220328325873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_9
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1024
+        width: 136
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe187593f79b4520800000000000000
+      internalID: 2687408675097157373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_10
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1274
+        width: 36
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c0ded1483663540800000000000000
+      internalID: 4987283056448310293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1346
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f8a1bd0856a6920800000000000000
+      internalID: 2984309307192545102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_12
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 914
+        width: 329
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41683db1f2b7cc2d0800000000000000
+      internalID: -3257092988235184620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_13
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 880
+        width: 337
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ba6f69b0c77b6c0800000000000000
+      internalID: -4127694144242537573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_14
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 904
+        width: 380
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8e9e3ea75eab2c0800000000000000
+      internalID: -4414964168710821718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_15
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 1065
+        width: 30
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d997c8044cb020800000000000000
+      internalID: 2358835109334471581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_16
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 1041
+        width: 80
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd431dd65cccd3a0800000000000000
+      internalID: -6639207077202670089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_17
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 899
+        width: 267
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8190a8d17e8944870800000000000000
+      internalID: 8666219701368129816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_18
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 1041
+        width: 80
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c917e2bc7fd8e8240800000000000000
+      internalID: 4795926748601414044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_19
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1065
+        width: 29
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33940281a8915f20800000000000000
+      internalID: 3409674212334670650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d514648d2b9b5a60800000000000000
+      internalID: 7663889810698016216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_21
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 455
+        width: 165
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 869d7e3498c7952b0800000000000000
+      internalID: -5595304133039498904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_22
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44794c0b43a22d160800000000000000
+      internalID: 7048742772580587332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_23
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 455
+        width: 85
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1338567f3a1ccb0800000000000000
+      internalID: -4845411441118596686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_24
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebbd7f7eeb8a3060800000000000000
+      internalID: 6934008432747723756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_25
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 455
+        width: 165
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d671df37d291d40800000000000000
+      internalID: 5555521591528877456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_26
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 455
+        width: 147
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22378106de41c4fa0800000000000000
+      internalID: -5815250009090133214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_27
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e077cec61787e10800000000000000
+      internalID: 2195629530980748912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_28
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ed8b212c9effb70800000000000000
+      internalID: 8935117205473386010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_29
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 455
+        width: 165
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbff8596b4d3c420800000000000000
+      internalID: 2649194886482361283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_30
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30831c468d0dd5cd0800000000000000
+      internalID: -2567666584709416957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_31
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 455
+        width: 145
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfc31d99063991f0800000000000000
+      internalID: -1037738824214261805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_32
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 455
+        width: 146
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3e2cc5733057dd0800000000000000
+      internalID: -2489079682737970247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radroaches-clear_33
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 455
+        width: 147
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09491d3f82ab9190800000000000000
+      internalID: -7954585580730758899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      radroaches-clear_0: 6699902094743588681
+      radroaches-clear_1: 8204306125056871652
+      radroaches-clear_10: 4987283056448310293
+      radroaches-clear_11: 2984309307192545102
+      radroaches-clear_12: -3257092988235184620
+      radroaches-clear_13: -4127694144242537573
+      radroaches-clear_14: -4414964168710821718
+      radroaches-clear_15: 2358835109334471581
+      radroaches-clear_16: -6639207077202670089
+      radroaches-clear_17: 8666219701368129816
+      radroaches-clear_18: 4795926748601414044
+      radroaches-clear_19: 3409674212334670650
+      radroaches-clear_2: 7082658104078797953
+      radroaches-clear_20: 7663889810698016216
+      radroaches-clear_21: -5595304133039498904
+      radroaches-clear_22: 7048742772580587332
+      radroaches-clear_23: -4845411441118596686
+      radroaches-clear_24: 6934008432747723756
+      radroaches-clear_25: 5555521591528877456
+      radroaches-clear_26: -5815250009090133214
+      radroaches-clear_27: 2195629530980748912
+      radroaches-clear_28: 8935117205473386010
+      radroaches-clear_29: 2649194886482361283
+      radroaches-clear_3: -463403970584490162
+      radroaches-clear_30: -2567666584709416957
+      radroaches-clear_31: -1037738824214261805
+      radroaches-clear_32: -2489079682737970247
+      radroaches-clear_33: -7954585580730758899
+      radroaches-clear_4: -7931767633156476116
+      radroaches-clear_5: 5977168274732927506
+      radroaches-clear_6: 8883085009336617244
+      radroaches-clear_7: 4831755962037152612
+      radroaches-clear_8: -256427220328325873
+      radroaches-clear_9: 2687408675097157373
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
