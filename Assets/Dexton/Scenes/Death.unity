@@ -268,7 +268,7 @@ PrefabInstance:
     - target: {fileID: 3200381045866057087, guid: 6a7fa426af350054e9d62daf2073790b, type: 3}
       propertyPath: transition
       value: 
-      objectReference: {fileID: 323811378}
+      objectReference: {fileID: 574640313}
     - target: {fileID: 5982012361307009546, guid: 6a7fa426af350054e9d62daf2073790b, type: 3}
       propertyPath: m_Name
       value: LevelLoaderTemplate
@@ -318,9 +318,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a7fa426af350054e9d62daf2073790b, type: 3}
---- !u!95 &323811378 stripped
+--- !u!95 &574640313 stripped
 Animator:
-  m_CorrespondingSourceObject: {fileID: 3486548087016093662, guid: 6a7fa426af350054e9d62daf2073790b, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1158238399025145225, guid: 6a7fa426af350054e9d62daf2073790b, type: 3}
   m_PrefabInstance: {fileID: 323811377}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &870486287
@@ -531,9 +531,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 0}
-  buttonSound: {fileID: 0}
+  buttonSound: {fileID: 8300000, guid: 4c541be7d370dfb419528a9cf8bc18cd, type: 3}
+  mixer: {fileID: -7687975722113116505, guid: c0ff083b5f728034f8f12e33e60a4ff7, type: 2}
   transitionTime: 1
-  transition: {fileID: 0}
+  transition: {fileID: 574640313}
 --- !u!114 &1654628118
 MonoBehaviour:
   m_ObjectHideFlags: 0
