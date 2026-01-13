@@ -4,19 +4,19 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem 
 {
-    public static void SavePlayer(Player_Health playerH, Player_Movement playerS)
+    public static void SavePlayer(Player_Health playerH, Player_Movement playerS) // SavePlayer Function used in JOJO
     {
         BinaryFormatter formatter = new BinaryFormatter();
-        string path = Application.persistentDataPath + "/player.fun";
+        string path = Path.Combine( Application.persistentDataPath , "/player.fun");
         FileStream stream = new FileStream(path, FileMode.Create);
 
         PlayerData data = new PlayerData(playerH, playerS);
 
         formatter.Serialize(stream, data);
     }
-    public static  PlayerData LoadPlayer()
+    public static  PlayerData LoadPlayer()  // LoadPlayer Function used in JOJO as well
     {
-        string path = Application.persistentDataPath + "/player.fun";
+        string path = Path.Combine(Application.persistentDataPath , "/player.fun");
         if (File.Exists(path))
         {
             BinaryFormatter formatter = new BinaryFormatter();
@@ -31,6 +31,9 @@ public static class SaveSystem
         {
             Debug.LogError("Your save file is in another castle..." + path);
             return null;
+            // In all seriousness why?
+            // Why are we still here? Just to suffer?
+
         }
     }
 

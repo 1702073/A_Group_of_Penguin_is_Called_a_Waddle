@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class JOJO :MonoBehaviour
 {
-
+    // The whole purpose of this script to save and load by using SaveSystem and save and load on entering or exiting a scene.
     public void SavePlayer(Player_Movement player_Movement, Player_Health player_Health)
     {
         SaveSystem.SavePlayer(GetComponent<Player_Health>(), GetComponent<Player_Movement>());
         //Debug.Log("AAAAAAAAA");
     }
-    public void LoadPlayer(Player_Movement player_movement, Player_Health player_Health)
+    public void LoadPlayer(Player_Movement player_movement, Player_Health player_Health) 
     {
         //Debug.Log("AAAAAAAAAAA but backwards");
 
